@@ -6,5 +6,31 @@
   "en": {
     "title": "⚔️ Welcome to Ravens of War Online!",
     "body": "A new world has risen from the ashes... and war already consumes its lands.\n\nAncient races thirsting for conquest, corrupted magic that devours souls, and legendary creatures emerged from the shadows rise to crush their enemies and claim the throne of chaos.\n\nThere is no mercy here. Only strategy, absolute power, and total destruction separate the weak from the immortal.\n\n🎁 Join our Discord to receive free promotional codes every week and stay ahead of the new battles yet to come."
+  },
+  "tips": {
+    "es": [
+      "Las tierras duales entran agotadas, pero fijan dos colores: juégalas en turnos donde no gastes todo el maná.",
+      "La influencia no se gasta: es cuánto de un color controlas. Por eso {R}{R}{R} pide compromiso, no acumular maná.",
+      "Arrollar cuela el daño sobrante a la cara. Un bloqueador pequeño no frena a un coloso, solo lo retrasa.",
+      "Anticipación golpea primero: gana el intercambio antes de recibir el golpe.",
+      "Desafío obliga al rival a bloquear. Combínalo con Letalidad y cada ataque se lleva una criatura.",
+      "Explorar te enseña las cartas de arriba de tu mazo y tú decides cuáles mandar al fondo. No roba: elige.",
+      "Los sobres tienen pity: épica garantizada cada 5 y tu primera legendaria antes del décimo.",
+      "En la mazmorra el botín se paga al TERMINAR la run, no por combate. Aguanta las tres derrotas.",
+      "Las auras no son criaturas: no atacan ni bloquean, pero el removal de criatura tampoco las toca.",
+      "Un mazo de tienda cuesta justo los 5.000 de oro de bienvenida. Elige color y empieza a jugar."
+    ],
+    "en": [
+      "Dual lands enter exhausted, but fix two colors: play them on turns you won't spend all your mana.",
+      "Influence isn't spent — it's how much of a color you control. That's why {R}{R}{R} asks for commitment, not hoarding.",
+      "Overwhelm pushes excess damage to the face. A small blocker doesn't stop a colossus, it only delays it.",
+      "Anticipation strikes first: it wins the trade before taking the hit.",
+      "Challenge forces the enemy to block. Pair it with Lethality and every attack takes a creature.",
+      "Scout shows you the top cards of your deck and you choose which go to the bottom. It doesn't draw: it picks.",
+      "Packs have pity: a guaranteed epic every 5, and your first legendary before the tenth.",
+      "In the dungeon, loot pays out when you FINISH the run, not per fight. Ride out those three losses.",
+      "Auras aren't creatures: they don't attack or block, but creature removal can't touch them either.",
+      "A shop deck costs exactly the 5,000 welcome gold. Pick a color and start playing."
+    ]
   }
 }

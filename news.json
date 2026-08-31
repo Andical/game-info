@@ -32,5 +32,115 @@
       "Auras aren't creatures: they don't attack or block, but creature removal can't touch them either.",
       "A shop deck costs exactly the 5,000 welcome gold. Pick a color and start playing."
     ]
-  }
+  },
+  "patch_notes": {
+    "version": "0.0.123",
+    "date": "2026-08-31",
+    "es": {
+      "title": "Novedades de la versión 0.0.123",
+      "sections": [
+        {
+          "heading": "Nuevo",
+          "items": [
+            "La tienda de gemas ya funciona con la cartera de Steam para quien juega desde Steam."
+          ]
+        },
+        {
+          "heading": "Correcciones",
+          "items": [
+            "Edicto Imperecedero: ahora destruye la criatura objetivo Y devuelve una criatura de tu cementerio. Antes solo hacía lo segundo.",
+            "Oleada Ardiente, Arremetida Flamígera, Oleada de Fuego Gemelo y Carga Primordial ya te dejan elegir a quién hacen daño: una criatura o el rival, como dice su texto.",
+            "Ya funciona el daño de Adepto de Brasa, Conducto Escriballamas, Duelista de la Tormenta, Ilzarra (Tormenta Viva) y Malzeth (Forja Eterna): antes se perdía y no llegaba a nadie."
+          ]
+        },
+        {
+          "heading": "Equilibrio",
+          "items": [
+            "La IA ya no malgasta hechizos que refuerzan a todas sus criaturas en turnos en los que no va a atacar."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "What's new in 0.0.123",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "The gem shop now works with the Steam Wallet for players on Steam."
+          ]
+        },
+        {
+          "heading": "Fixes",
+          "items": [
+            "Edict of the Deathless: it now destroys the target creature AND returns a creature from your graveyard. Before, it only did the second half.",
+            "Emberblood Surge, Blazing Onslaught, Twinfire Surge and Primordial Charge now let you choose what their damage hits, a creature or your opponent, exactly as their text says.",
+            "Damage from Emberspell Adept, Flamescribe Conduit, Stormhall Duelist, Ilzarra and Malzeth now actually lands. Before, it was simply lost."
+          ]
+        },
+        {
+          "heading": "Balance",
+          "items": [
+            "The AI no longer wastes spells that buff all of its creatures on turns when it is not going to attack."
+          ]
+        }
+      ]
+    }
+  },
+  "patch_notes_history": [
+    {
+      "version": "0.0.123",
+      "date": "2026-08-31",
+      "es": {
+        "title": "Novedades de la versión 0.0.123",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "La tienda de gemas ya funciona con la cartera de Steam para quien juega desde Steam."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Edicto Imperecedero: ahora destruye la criatura objetivo Y devuelve una criatura de tu cementerio. Antes solo hacía lo segundo.",
+              "Oleada Ardiente, Arremetida Flamígera, Oleada de Fuego Gemelo y Carga Primordial ya te dejan elegir a quién hacen daño: una criatura o el rival, como dice su texto.",
+              "Ya funciona el daño de Adepto de Brasa, Conducto Escriballamas, Duelista de la Tormenta, Ilzarra (Tormenta Viva) y Malzeth (Forja Eterna): antes se perdía y no llegaba a nadie."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "La IA ya no malgasta hechizos que refuerzan a todas sus criaturas en turnos en los que no va a atacar."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.123",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "The gem shop now works with the Steam Wallet for players on Steam."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Edict of the Deathless: it now destroys the target creature AND returns a creature from your graveyard. Before, it only did the second half.",
+              "Emberblood Surge, Blazing Onslaught, Twinfire Surge and Primordial Charge now let you choose what their damage hits, a creature or your opponent, exactly as their text says.",
+              "Damage from Emberspell Adept, Flamescribe Conduit, Stormhall Duelist, Ilzarra and Malzeth now actually lands. Before, it was simply lost."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "The AI no longer wastes spells that buff all of its creatures on turns when it is not going to attack."
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

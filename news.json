@@ -34,32 +34,112 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.125",
-    "date": "2026-08-31",
+    "version": "0.0.127",
+    "date": "2026-09-01",
+    "published_at": "2026-09-01T01:20:42",
     "es": {
-      "title": "Novedades de la versión 0.0.125",
+      "title": "Novedades de la versión 0.0.127",
       "sections": [
         {
-          "heading": "Correcciones",
+          "heading": "Nuevo",
           "items": [
-            "El recuadro de novedades de la pantalla de inicio vuelve a leerse bien: enseña las notas de la versión con la letra del panel y una sola barra de desplazamiento, en vez de dos textos apretujados."
+            "25 cartas nuevas que actúan en momentos donde antes no pasaba nada: al morir, al atacar y al recibir daño.",
+            "Entre ellas: criaturas que destruyen o reaniman al morir, asaltantes que rebotan o silencian al atacar, un muro de zarzas que refuerza a los tuyos cuando lo hieren, y un demonio que destruye una criatura si lo DESCARTAS."
+          ]
+        },
+        {
+          "heading": "Mejoras",
+          "items": [
+            "Ninguna de las cartas nuevas repite lo que ya hacía otra: se comprueba carta por carta antes de publicarlas."
+          ]
+        },
+        {
+          "heading": "Equilibrio",
+          "items": [
+            "La IA ya sabe apreciar las criaturas con Infiltración: antes las jugaba como si no tuvieran habilidad."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.125",
+      "title": "What's new in 0.0.127",
       "sections": [
         {
-          "heading": "Fixes",
+          "heading": "New",
           "items": [
-            "The news box on the login screen reads properly again: it shows the version notes in the panel's own font with a single scrollbar, instead of two cramped blocks of text."
+            "25 new cards that act at moments where nothing used to happen: when they die, when they attack and when they take damage.",
+            "Among them: creatures that destroy or reanimate on death, raiders that bounce or silence when they attack, a bramble wall that buffs your team when wounded, and a demon that destroys a creature if you DISCARD it."
+          ]
+        },
+        {
+          "heading": "Improvements",
+          "items": [
+            "None of the new cards repeats what an existing card already did: every one is checked against the whole collection before it ships."
+          ]
+        },
+        {
+          "heading": "Balance",
+          "items": [
+            "The AI now understands creatures with Infiltrate: it used to play them as if they had no ability at all."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.127",
+      "date": "2026-09-01",
+      "published_at": "2026-09-01T01:20:42",
+      "es": {
+        "title": "Novedades de la versión 0.0.127",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "25 cartas nuevas que actúan en momentos donde antes no pasaba nada: al morir, al atacar y al recibir daño.",
+              "Entre ellas: criaturas que destruyen o reaniman al morir, asaltantes que rebotan o silencian al atacar, un muro de zarzas que refuerza a los tuyos cuando lo hieren, y un demonio que destruye una criatura si lo DESCARTAS."
+            ]
+          },
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Ninguna de las cartas nuevas repite lo que ya hacía otra: se comprueba carta por carta antes de publicarlas."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "La IA ya sabe apreciar las criaturas con Infiltración: antes las jugaba como si no tuvieran habilidad."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.127",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "25 new cards that act at moments where nothing used to happen: when they die, when they attack and when they take damage.",
+              "Among them: creatures that destroy or reanimate on death, raiders that bounce or silence when they attack, a bramble wall that buffs your team when wounded, and a demon that destroys a creature if you DISCARD it."
+            ]
+          },
+          {
+            "heading": "Improvements",
+            "items": [
+              "None of the new cards repeats what an existing card already did: every one is checked against the whole collection before it ships."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "The AI now understands creatures with Infiltrate: it used to play them as if they had no ability at all."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.125",
       "date": "2026-08-31",
@@ -84,7 +164,8 @@
             ]
           }
         ]
-      }
+      },
+      "published_at": "2026-08-31T05:57:15"
     },
     {
       "version": "0.0.123",
@@ -138,7 +219,8 @@
             ]
           }
         ]
-      }
+      },
+      "published_at": "2026-08-31T03:51:38"
     }
   ]
 }

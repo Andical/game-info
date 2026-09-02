@@ -34,53 +34,104 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.131",
+    "version": "0.0.133",
     "date": "2026-09-02",
-    "published_at": "2026-09-02T18:38:40",
+    "published_at": "2026-09-02T22:53:57",
     "es": {
-      "title": "Novedades de la versión 0.0.131",
+      "title": "Novedades de la versión 0.0.133",
       "sections": [
         {
           "heading": "Correcciones",
           "items": [
-            "Varias auras no hacian lo que dice su texto y ahora si: Sigilo de Escarcha ya agota una criatura enemiga cada turno, Vigilia del Guardian y Cuidado del Espinar ya ponen su contador +1/+1, y el Brasero Ardiente ya inflige su dano a una criatura.",
-            "Un aura que pedia sacrificar una criatura para drenar vida cobraba el drenaje sin sacrificar nada. Ahora paga lo que dice: sin criatura que entregar, no drena."
+            "Vigilia del Guardian, Sigilo de Escarcha y Relicario del Fango ya hacen lo que dice su texto al empezar tu turno. Antes no ocurria nada.",
+            "Corregido el texto de reglas de 23 cartas en las que la etiqueta de la habilidad salia repetida (por ejemplo «Legado: Legado - Cuando esta muere...»).",
+            "En la pestana Destacado de la tienda, los productos ya cambian de idioma cuando lo cambias en Ajustes."
           ]
         },
         {
           "heading": "Equilibrio",
           "items": [
-            "Ocho auras que quitaban vida al rival cada turno sin pedir nada a cambio ahora piden una condicion, y distinta en cada una.",
-            "Fuente del Marchitar y Relicario Eterno miran tu cementerio. Corte de la Sed Carmesi y Altar Carmesi, las criaturas que controlas. Pira Eterna y Umbral de la Llama Viva, tu influencia roja.",
-            "Mojon de las Deudas mira tu vida, y Brasero Ardiente las cartas que te quedan en la mano.",
-            "Ninguna de las ocho cambia de nombre, coste ni ilustracion: solo cuando se activan."
+            "Las auras que drenaban vida cada turno sin pedir nada a cambio eran demasiado fuertes: ahora cada una exige una condicion acorde a su color.",
+            "Cambian asi Fuente del Marchitar, Corte de la Sed Carmesi, Altar Carmesi, Umbral de la Llama Viva, Brasero Ardiente y Relicario Eterno.",
+            "Martir Hueca y Guardian de Escamas ahora vuelan, como corresponde a un angel y a un dragon. A cambio pierden 1 punto de defensa.",
+            "El rival controlado por la maquina ya valora bien las cartas que drenan vida turno tras turno: antes las infravaloraba y las jugaba tarde."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.131",
+      "title": "What's new in 0.0.133",
       "sections": [
         {
           "heading": "Fixes",
           "items": [
-            "Several auras did not do what their text says, and now they do: Frostbind Sigil now exhausts an enemy creature each turn, Grove Warden's Vigil and Thornwood Tending now place their +1/+1 counter, and Emberwake Brazier now deals its damage to a creature.",
-            "An aura that asked you to sacrifice a creature to drain life was draining without sacrificing anything. It now pays what it says: with no creature to give up, it does not drain."
+            "Grove Warden's Vigil, Frostbind Sigil and Mireheart Reliquary now do what their text says at the start of your turn. Before, nothing happened.",
+            "Fixed the rules text on 23 cards where the ability label appeared twice (for example «Legacy: Legacy - When this dies...»).",
+            "In the shop's Featured tab, products now switch language when you change it in Settings."
           ]
         },
         {
           "heading": "Balance",
           "items": [
-            "Eight auras that drained the opponent every turn for free now ask for a condition, and a different one on each.",
-            "Font of Withering and Everflame Reliquary look at your graveyard. Court of Crimson Thirst and Crimson Host Altar, at the creatures you control. Everburning Pyre and Threshold of the Flame, at your red influence.",
-            "Debtstone Cairn looks at your life, and Emberwake Brazier at the cards left in your hand.",
-            "None of the eight changes its name, cost or art: only when it turns on."
+            "Auras that drained your opponent's life every turn for free were too strong: each one now asks for a condition that fits its colour.",
+            "This affects Font of Withering, Court of Crimson Thirst, Crimson Host Altar, Threshold of the Flame, Emberwake Brazier and Everflame Reliquary.",
+            "Hollow Martyr and Emberscale Warden now have Flying, as an angel and a dragon should. In exchange, each loses 1 point of defence.",
+            "The AI opponent now properly values cards that drain life turn after turn. Before it undervalued them and played them too late."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.133",
+      "date": "2026-09-02",
+      "published_at": "2026-09-02T22:53:57",
+      "es": {
+        "title": "Novedades de la versión 0.0.133",
+        "sections": [
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Vigilia del Guardian, Sigilo de Escarcha y Relicario del Fango ya hacen lo que dice su texto al empezar tu turno. Antes no ocurria nada.",
+              "Corregido el texto de reglas de 23 cartas en las que la etiqueta de la habilidad salia repetida (por ejemplo «Legado: Legado - Cuando esta muere...»).",
+              "En la pestana Destacado de la tienda, los productos ya cambian de idioma cuando lo cambias en Ajustes."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "Las auras que drenaban vida cada turno sin pedir nada a cambio eran demasiado fuertes: ahora cada una exige una condicion acorde a su color.",
+              "Cambian asi Fuente del Marchitar, Corte de la Sed Carmesi, Altar Carmesi, Umbral de la Llama Viva, Brasero Ardiente y Relicario Eterno.",
+              "Martir Hueca y Guardian de Escamas ahora vuelan, como corresponde a un angel y a un dragon. A cambio pierden 1 punto de defensa.",
+              "El rival controlado por la maquina ya valora bien las cartas que drenan vida turno tras turno: antes las infravaloraba y las jugaba tarde."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.133",
+        "sections": [
+          {
+            "heading": "Fixes",
+            "items": [
+              "Grove Warden's Vigil, Frostbind Sigil and Mireheart Reliquary now do what their text says at the start of your turn. Before, nothing happened.",
+              "Fixed the rules text on 23 cards where the ability label appeared twice (for example «Legacy: Legacy - When this dies...»).",
+              "In the shop's Featured tab, products now switch language when you change it in Settings."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "Auras that drained your opponent's life every turn for free were too strong: each one now asks for a condition that fits its colour.",
+              "This affects Font of Withering, Court of Crimson Thirst, Crimson Host Altar, Threshold of the Flame, Emberwake Brazier and Everflame Reliquary.",
+              "Hollow Martyr and Emberscale Warden now have Flying, as an angel and a dragon should. In exchange, each loses 1 point of defence.",
+              "The AI opponent now properly values cards that drain life turn after turn. Before it undervalued them and played them too late."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.131",
       "date": "2026-09-02",
@@ -246,61 +297,6 @@
         ]
       },
       "published_at": "2026-08-31T05:57:15"
-    },
-    {
-      "version": "0.0.123",
-      "date": "2026-08-31",
-      "es": {
-        "title": "Novedades de la versión 0.0.123",
-        "sections": [
-          {
-            "heading": "Nuevo",
-            "items": [
-              "La tienda de gemas ya funciona con la cartera de Steam para quien juega desde Steam."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Edicto Imperecedero: ahora destruye la criatura objetivo Y devuelve una criatura de tu cementerio. Antes solo hacía lo segundo.",
-              "Oleada Ardiente, Arremetida Flamígera, Oleada de Fuego Gemelo y Carga Primordial ya te dejan elegir a quién hacen daño: una criatura o el rival, como dice su texto.",
-              "Ya funciona el daño de Adepto de Brasa, Conducto Escriballamas, Duelista de la Tormenta, Ilzarra (Tormenta Viva) y Malzeth (Forja Eterna): antes se perdía y no llegaba a nadie."
-            ]
-          },
-          {
-            "heading": "Equilibrio",
-            "items": [
-              "La IA ya no malgasta hechizos que refuerzan a todas sus criaturas en turnos en los que no va a atacar."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.123",
-        "sections": [
-          {
-            "heading": "New",
-            "items": [
-              "The gem shop now works with the Steam Wallet for players on Steam."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "Edict of the Deathless: it now destroys the target creature AND returns a creature from your graveyard. Before, it only did the second half.",
-              "Emberblood Surge, Blazing Onslaught, Twinfire Surge and Primordial Charge now let you choose what their damage hits, a creature or your opponent, exactly as their text says.",
-              "Damage from Emberspell Adept, Flamescribe Conduit, Stormhall Duelist, Ilzarra and Malzeth now actually lands. Before, it was simply lost."
-            ]
-          },
-          {
-            "heading": "Balance",
-            "items": [
-              "The AI no longer wastes spells that buff all of its creatures on turns when it is not going to attack."
-            ]
-          }
-        ]
-      },
-      "published_at": "2026-08-31T03:51:38"
     }
   ]
 }

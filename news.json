@@ -34,55 +34,60 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.133",
-    "date": "2026-09-02",
-    "published_at": "2026-09-02T22:53:57",
+    "version": "0.0.136",
+    "date": "2026-09-03",
+    "published_at": "2026-09-03T05:36:22",
     "es": {
-      "title": "Novedades de la versión 0.0.133",
+      "title": "Novedades de la versión 0.0.136",
       "sections": [
         {
           "heading": "Correcciones",
           "items": [
-            "Vigilia del Guardian, Sigilo de Escarcha y Relicario del Fango ya hacen lo que dice su texto al empezar tu turno. Antes no ocurria nada.",
-            "Corregido el texto de reglas de 23 cartas en las que la etiqueta de la habilidad salia repetida (por ejemplo «Legado: Legado - Cuando esta muere...»).",
-            "En la pestana Destacado de la tienda, los productos ya cambian de idioma cuando lo cambias en Ajustes."
-          ]
-        },
-        {
-          "heading": "Equilibrio",
-          "items": [
-            "Las auras que drenaban vida cada turno sin pedir nada a cambio eran demasiado fuertes: ahora cada una exige una condicion acorde a su color.",
-            "Cambian asi Fuente del Marchitar, Corte de la Sed Carmesi, Altar Carmesi, Umbral de la Llama Viva, Brasero Ardiente y Relicario Eterno.",
-            "Martir Hueca y Guardian de Escamas ahora vuelan, como corresponde a un angel y a un dragon. A cambio pierden 1 punto de defensa.",
-            "El rival controlado por la maquina ya valora bien las cartas que drenan vida turno tras turno: antes las infravaloraba y las jugaba tarde."
+            "Canto de la Sima ya se puede lanzar aunque el rival no tenga criaturas: su parte de agotar es un extra condicional, no un requisito. Antes el juego rechazaba la jugada sin explicar por que."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.133",
+      "title": "What's new in 0.0.136",
       "sections": [
         {
           "heading": "Fixes",
           "items": [
-            "Grove Warden's Vigil, Frostbind Sigil and Mireheart Reliquary now do what their text says at the start of your turn. Before, nothing happened.",
-            "Fixed the rules text on 23 cards where the ability label appeared twice (for example «Legacy: Legacy - When this dies...»).",
-            "In the shop's Featured tab, products now switch language when you change it in Settings."
-          ]
-        },
-        {
-          "heading": "Balance",
-          "items": [
-            "Auras that drained your opponent's life every turn for free were too strong: each one now asks for a condition that fits its colour.",
-            "This affects Font of Withering, Court of Crimson Thirst, Crimson Host Altar, Threshold of the Flame, Emberwake Brazier and Everflame Reliquary.",
-            "Hollow Martyr and Emberscale Warden now have Flying, as an angel and a dragon should. In exchange, each loses 1 point of defence.",
-            "The AI opponent now properly values cards that drain life turn after turn. Before it undervalued them and played them too late."
+            "Chant of the Deep can now be cast even when your opponent has no creatures: its tap is a conditional bonus, not a requirement. Before, the game refused the play without saying why."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.136",
+      "date": "2026-09-03",
+      "published_at": "2026-09-03T05:36:22",
+      "es": {
+        "title": "Novedades de la versión 0.0.136",
+        "sections": [
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Canto de la Sima ya se puede lanzar aunque el rival no tenga criaturas: su parte de agotar es un extra condicional, no un requisito. Antes el juego rechazaba la jugada sin explicar por que."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.136",
+        "sections": [
+          {
+            "heading": "Fixes",
+            "items": [
+              "Chant of the Deep can now be cast even when your opponent has no creatures: its tap is a conditional bonus, not a requirement. Before, the game refused the play without saying why."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.133",
       "date": "2026-09-02",
@@ -270,33 +275,6 @@
           }
         ]
       }
-    },
-    {
-      "version": "0.0.125",
-      "date": "2026-08-31",
-      "es": {
-        "title": "Novedades de la versión 0.0.125",
-        "sections": [
-          {
-            "heading": "Correcciones",
-            "items": [
-              "El recuadro de novedades de la pantalla de inicio vuelve a leerse bien: enseña las notas de la versión con la letra del panel y una sola barra de desplazamiento, en vez de dos textos apretujados."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.125",
-        "sections": [
-          {
-            "heading": "Fixes",
-            "items": [
-              "The news box on the login screen reads properly again: it shows the version notes in the panel's own font with a single scrollbar, instead of two cramped blocks of text."
-            ]
-          }
-        ]
-      },
-      "published_at": "2026-08-31T05:57:15"
     }
   ]
 }

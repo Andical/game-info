@@ -34,33 +34,112 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.136",
-    "date": "2026-09-03",
-    "published_at": "2026-09-03T05:36:22",
+    "version": "0.0.141",
+    "date": "2026-09-04",
+    "published_at": "2026-09-04T02:30:21",
     "es": {
-      "title": "Novedades de la versión 0.0.136",
+      "title": "Novedades de la versión 0.0.141",
       "sections": [
+        {
+          "heading": "Nuevo",
+          "items": [
+            "Las seis campañas tienen historia. Corvane te acompaña con escenas al empezar, a mitad de camino y ante el jefe de cada color, y te explica de paso cómo pelea ese color y cómo se le gana."
+          ]
+        },
+        {
+          "heading": "Mejoras",
+          "items": [
+            "Si te faltan gemas para desbloquear una aventura, el juego te lleva a la tienda en vez de dejarte con el aviso.",
+            "El apartado de Aventuras del menú de modos ya aparece a la vez que los demás, en vez de un instante después."
+          ]
+        },
         {
           "heading": "Correcciones",
           "items": [
-            "Canto de la Sima ya se puede lanzar aunque el rival no tenga criaturas: su parte de agotar es un extra condicional, no un requisito. Antes el juego rechazaba la jugada sin explicar por que."
+            "Los nombres de los rivales del mapa de aventura ya se traducen al cambiar de idioma sin salir de la pantalla. Antes se quedaban en el idioma anterior hasta volver a entrar."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.136",
+      "title": "What's new in 0.0.141",
       "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "All six campaigns now have a story. Corvane walks you through scenes at the start, at the midpoint and before each colour's boss, explaining along the way how that colour fights and how to beat it."
+          ]
+        },
+        {
+          "heading": "Improvements",
+          "items": [
+            "If you are short on gems to unlock an adventure, the game now takes you to the shop instead of leaving you with just a notice.",
+            "The Adventures panel in the game modes menu now appears at the same time as the others, instead of a moment later."
+          ]
+        },
         {
           "heading": "Fixes",
           "items": [
-            "Chant of the Deep can now be cast even when your opponent has no creatures: its tap is a conditional bonus, not a requirement. Before, the game refused the play without saying why."
+            "Rival names on the adventure map now update when you switch language without leaving the screen. They used to stay in the previous language until you re-entered."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.141",
+      "date": "2026-09-04",
+      "published_at": "2026-09-04T02:30:21",
+      "es": {
+        "title": "Novedades de la versión 0.0.141",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Las seis campañas tienen historia. Corvane te acompaña con escenas al empezar, a mitad de camino y ante el jefe de cada color, y te explica de paso cómo pelea ese color y cómo se le gana."
+            ]
+          },
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Si te faltan gemas para desbloquear una aventura, el juego te lleva a la tienda en vez de dejarte con el aviso.",
+              "El apartado de Aventuras del menú de modos ya aparece a la vez que los demás, en vez de un instante después."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Los nombres de los rivales del mapa de aventura ya se traducen al cambiar de idioma sin salir de la pantalla. Antes se quedaban en el idioma anterior hasta volver a entrar."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.141",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "All six campaigns now have a story. Corvane walks you through scenes at the start, at the midpoint and before each colour's boss, explaining along the way how that colour fights and how to beat it."
+            ]
+          },
+          {
+            "heading": "Improvements",
+            "items": [
+              "If you are short on gems to unlock an adventure, the game now takes you to the shop instead of leaving you with just a notice.",
+              "The Adventures panel in the game modes menu now appears at the same time as the others, instead of a moment later."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Rival names on the adventure map now update when you switch language without leaving the screen. They used to stay in the previous language until you re-entered."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.136",
       "date": "2026-09-03",
@@ -218,59 +297,6 @@
             "heading": "Fixes",
             "items": [
               "The rules text on 23 cards repeated the name of its own ability (\"Legacy: Legacy - When this dies...\"). It now reads cleanly, in both languages."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.127",
-      "date": "2026-09-01",
-      "published_at": "2026-09-01T01:20:42",
-      "es": {
-        "title": "Novedades de la versión 0.0.127",
-        "sections": [
-          {
-            "heading": "Nuevo",
-            "items": [
-              "25 cartas nuevas que actúan en momentos donde antes no pasaba nada: al morir, al atacar y al recibir daño.",
-              "Entre ellas: criaturas que destruyen o reaniman al morir, asaltantes que rebotan o silencian al atacar, un muro de zarzas que refuerza a los tuyos cuando lo hieren, y un demonio que destruye una criatura si lo DESCARTAS."
-            ]
-          },
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Ninguna de las cartas nuevas repite lo que ya hacía otra: se comprueba carta por carta antes de publicarlas."
-            ]
-          },
-          {
-            "heading": "Equilibrio",
-            "items": [
-              "La IA ya sabe apreciar las criaturas con Infiltración: antes las jugaba como si no tuvieran habilidad."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.127",
-        "sections": [
-          {
-            "heading": "New",
-            "items": [
-              "25 new cards that act at moments where nothing used to happen: when they die, when they attack and when they take damage.",
-              "Among them: creatures that destroy or reanimate on death, raiders that bounce or silence when they attack, a bramble wall that buffs your team when wounded, and a demon that destroys a creature if you DISCARD it."
-            ]
-          },
-          {
-            "heading": "Improvements",
-            "items": [
-              "None of the new cards repeats what an existing card already did: every one is checked against the whole collection before it ships."
-            ]
-          },
-          {
-            "heading": "Balance",
-            "items": [
-              "The AI now understands creatures with Infiltrate: it used to play them as if they had no ability at all."
             ]
           }
         ]

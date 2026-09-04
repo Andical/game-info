@@ -34,59 +34,92 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.141",
+    "version": "0.0.145",
     "date": "2026-09-04",
-    "published_at": "2026-09-04T02:30:21",
+    "published_at": "2026-09-04T20:37:41",
     "es": {
-      "title": "Novedades de la versión 0.0.141",
+      "title": "Novedades de la versión 0.0.145",
       "sections": [
-        {
-          "heading": "Nuevo",
-          "items": [
-            "Las seis campañas tienen historia. Corvane te acompaña con escenas al empezar, a mitad de camino y ante el jefe de cada color, y te explica de paso cómo pelea ese color y cómo se le gana."
-          ]
-        },
         {
           "heading": "Mejoras",
           "items": [
-            "Si te faltan gemas para desbloquear una aventura, el juego te lleva a la tienda en vez de dejarte con el aviso.",
-            "El apartado de Aventuras del menú de modos ya aparece a la vez que los demás, en vez de un instante después."
+            "Cada modo del menú de juego lleva ahora una línea que explica qué es y qué cuesta, para no tener que entrar a verlo.",
+            "El texto de las escenas de historia aparece a un ritmo más pausado, para poder leerlo sin prisa.",
+            "Las escenas de historia llegan mejor repartidas: la presentación de cada rival suena al entrar a su combate, y solo la del rival que eliges."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "Los nombres de los rivales del mapa de aventura ya se traducen al cambiar de idioma sin salir de la pantalla. Antes se quedaban en el idioma anterior hasta volver a entrar."
+            "Varios textos salían en el idioma equivocado: las gemas y los fragmentos de la ventana de recompensas, el botón de ajustes dentro de la partida, el aviso al comprar gemas y los mensajes de error al guardar o borrar un mazo."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.141",
+      "title": "What's new in 0.0.145",
       "sections": [
-        {
-          "heading": "New",
-          "items": [
-            "All six campaigns now have a story. Corvane walks you through scenes at the start, at the midpoint and before each colour's boss, explaining along the way how that colour fights and how to beat it."
-          ]
-        },
         {
           "heading": "Improvements",
           "items": [
-            "If you are short on gems to unlock an adventure, the game now takes you to the shop instead of leaving you with just a notice.",
-            "The Adventures panel in the game modes menu now appears at the same time as the others, instead of a moment later."
+            "Each mode in the play menu now carries a line explaining what it is and what it costs, so you do not have to go in to find out.",
+            "Text in story scenes now appears at a calmer pace, so you can read it without rushing.",
+            "Story scenes are better spaced out: each rival's introduction now plays as you enter their fight, and only for the rival you pick."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "Rival names on the adventure map now update when you switch language without leaving the screen. They used to stay in the previous language until you re-entered."
+            "Several texts showed up in the wrong language: the gems and shards in the rewards window, the settings button inside a match, the gem purchase notice, and the error messages when saving or deleting a deck."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.145",
+      "date": "2026-09-04",
+      "published_at": "2026-09-04T20:37:41",
+      "es": {
+        "title": "Novedades de la versión 0.0.145",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Cada modo del menú de juego lleva ahora una línea que explica qué es y qué cuesta, para no tener que entrar a verlo.",
+              "El texto de las escenas de historia aparece a un ritmo más pausado, para poder leerlo sin prisa.",
+              "Las escenas de historia llegan mejor repartidas: la presentación de cada rival suena al entrar a su combate, y solo la del rival que eliges."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Varios textos salían en el idioma equivocado: las gemas y los fragmentos de la ventana de recompensas, el botón de ajustes dentro de la partida, el aviso al comprar gemas y los mensajes de error al guardar o borrar un mazo."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.145",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "Each mode in the play menu now carries a line explaining what it is and what it costs, so you do not have to go in to find out.",
+              "Text in story scenes now appears at a calmer pace, so you can read it without rushing.",
+              "Story scenes are better spaced out: each rival's introduction now plays as you enter their fight, and only for the rival you pick."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Several texts showed up in the wrong language: the gems and shards in the rewards window, the settings button inside a match, the gem purchase notice, and the error messages when saving or deleting a deck."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.141",
       "date": "2026-09-04",
@@ -258,45 +291,6 @@
               "Font of Withering and Everflame Reliquary look at your graveyard. Court of Crimson Thirst and Crimson Host Altar, at the creatures you control. Everburning Pyre and Threshold of the Flame, at your red influence.",
               "Debtstone Cairn looks at your life, and Emberwake Brazier at the cards left in your hand.",
               "None of the eight changes its name, cost or art: only when it turns on."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.129",
-      "date": "2026-09-02",
-      "published_at": "2026-09-02T06:18:47",
-      "es": {
-        "title": "Novedades de la versión 0.0.129",
-        "sections": [
-          {
-            "heading": "Nuevo",
-            "items": [
-              "18 cartas nuevas que no son criaturas: auras que hacen algo CADA turno (agotar, quemar, escudar), hechizos donde sacrificas una criatura para pagar algo grande, y trucos que cambian según cómo vaya la partida."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "El texto de 23 cartas repetía el nombre de su propia habilidad («Legado: Legado - Cuando muere...»). Ya se lee limpio, en español y en inglés."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.129",
-        "sections": [
-          {
-            "heading": "New",
-            "items": [
-              "18 new non-creature cards: auras that act EVERY turn (exhaust, burn, shield), spells where you sacrifice a creature to pay for something big, and tricks that change depending on how the game is going."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "The rules text on 23 cards repeated the name of its own ability (\"Legacy: Legacy - When this dies...\"). It now reads cleanly, in both languages."
             ]
           }
         ]

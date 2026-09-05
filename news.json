@@ -34,49 +34,92 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.145",
-    "date": "2026-09-04",
-    "published_at": "2026-09-04T20:37:41",
+    "version": "0.0.147",
+    "date": "2026-09-05",
+    "published_at": "2026-09-05T23:07:34",
     "es": {
-      "title": "Novedades de la versión 0.0.145",
+      "title": "Novedades de la versión 0.0.147",
       "sections": [
         {
-          "heading": "Mejoras",
+          "heading": "Nuevo",
           "items": [
-            "Cada modo del menú de juego lleva ahora una línea que explica qué es y qué cuesta, para no tener que entrar a verlo.",
-            "El texto de las escenas de historia aparece a un ritmo más pausado, para poder leerlo sin prisa.",
-            "Las escenas de historia llegan mejor repartidas: la presentación de cada rival suena al entrar a su combate, y solo la del rival que eliges."
+            "Ya están disponibles las Aventuras: caminos largos de 12 combates con su propia historia. La Senda del Cuervo es gratuita para todo el mundo; The Echo Deep se compra una vez y es tuya para siempre.",
+            "Ocho cartas más entran en circulación al terminarse sus ilustraciones: ya salen en sobres, en la colección y en los mazos."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "Varios textos salían en el idioma equivocado: las gemas y los fragmentos de la ventana de recompensas, el botón de ajustes dentro de la partida, el aviso al comprar gemas y los mensajes de error al guardar o borrar un mazo."
+            "Las tierras dobles del ciclo Cresta ya cumplen su Explorar al entrar en juego: antes no llegaba a hacerse, y en algunos casos le tocaba al rival en vez de a ti.",
+            "La IA ya no se sacrifica su última criatura por una carta, ni arrasa el campo cuando es ella la que va ganando en mesa: cuando una jugada le sale cara, se la guarda."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.145",
+      "title": "What's new in 0.0.147",
       "sections": [
         {
-          "heading": "Improvements",
+          "heading": "New",
           "items": [
-            "Each mode in the play menu now carries a line explaining what it is and what it costs, so you do not have to go in to find out.",
-            "Text in story scenes now appears at a calmer pace, so you can read it without rushing.",
-            "Story scenes are better spaced out: each rival's introduction now plays as you enter their fight, and only for the rival you pick."
+            "Adventures are now available: long roads of 12 fights with a story of their own. Ravens Path is free for everyone; The Echo Deep is a one-time purchase, yours to keep.",
+            "Eight more cards enter circulation now that their art is finished: they show up in packs, in your collection and in decks."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "Several texts showed up in the wrong language: the gems and shards in the rewards window, the settings button inside a match, the gem purchase notice, and the error messages when saving or deleting a deck."
+            "The dual Crest lands now actually perform their Scout when they come into play: before it never happened, and in some cases it went to your opponent instead of you.",
+            "The AI no longer sacrifices its last creature for a single card, nor wipes the board when it is the one ahead on it: when a play costs it more than it gains, it holds the card."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.147",
+      "date": "2026-09-05",
+      "published_at": "2026-09-05T23:07:34",
+      "es": {
+        "title": "Novedades de la versión 0.0.147",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Ya están disponibles las Aventuras: caminos largos de 12 combates con su propia historia. La Senda del Cuervo es gratuita para todo el mundo; The Echo Deep se compra una vez y es tuya para siempre.",
+              "Ocho cartas más entran en circulación al terminarse sus ilustraciones: ya salen en sobres, en la colección y en los mazos."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Las tierras dobles del ciclo Cresta ya cumplen su Explorar al entrar en juego: antes no llegaba a hacerse, y en algunos casos le tocaba al rival en vez de a ti.",
+              "La IA ya no se sacrifica su última criatura por una carta, ni arrasa el campo cuando es ella la que va ganando en mesa: cuando una jugada le sale cara, se la guarda."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.147",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "Adventures are now available: long roads of 12 fights with a story of their own. Ravens Path is free for everyone; The Echo Deep is a one-time purchase, yours to keep.",
+              "Eight more cards enter circulation now that their art is finished: they show up in packs, in your collection and in decks."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "The dual Crest lands now actually perform their Scout when they come into play: before it never happened, and in some cases it went to your opponent instead of you.",
+              "The AI no longer sacrifices its last creature for a single card, nor wipes the board when it is the one ahead on it: when a play costs it more than it gains, it holds the card."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.145",
       "date": "2026-09-04",
@@ -244,53 +287,6 @@
               "This affects Font of Withering, Court of Crimson Thirst, Crimson Host Altar, Threshold of the Flame, Emberwake Brazier and Everflame Reliquary.",
               "Hollow Martyr and Emberscale Warden now have Flying, as an angel and a dragon should. In exchange, each loses 1 point of defence.",
               "The AI opponent now properly values cards that drain life turn after turn. Before it undervalued them and played them too late."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.131",
-      "date": "2026-09-02",
-      "published_at": "2026-09-02T18:38:40",
-      "es": {
-        "title": "Novedades de la versión 0.0.131",
-        "sections": [
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Varias auras no hacian lo que dice su texto y ahora si: Sigilo de Escarcha ya agota una criatura enemiga cada turno, Vigilia del Guardian y Cuidado del Espinar ya ponen su contador +1/+1, y el Brasero Ardiente ya inflige su dano a una criatura.",
-              "Un aura que pedia sacrificar una criatura para drenar vida cobraba el drenaje sin sacrificar nada. Ahora paga lo que dice: sin criatura que entregar, no drena."
-            ]
-          },
-          {
-            "heading": "Equilibrio",
-            "items": [
-              "Ocho auras que quitaban vida al rival cada turno sin pedir nada a cambio ahora piden una condicion, y distinta en cada una.",
-              "Fuente del Marchitar y Relicario Eterno miran tu cementerio. Corte de la Sed Carmesi y Altar Carmesi, las criaturas que controlas. Pira Eterna y Umbral de la Llama Viva, tu influencia roja.",
-              "Mojon de las Deudas mira tu vida, y Brasero Ardiente las cartas que te quedan en la mano.",
-              "Ninguna de las ocho cambia de nombre, coste ni ilustracion: solo cuando se activan."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.131",
-        "sections": [
-          {
-            "heading": "Fixes",
-            "items": [
-              "Several auras did not do what their text says, and now they do: Frostbind Sigil now exhausts an enemy creature each turn, Grove Warden's Vigil and Thornwood Tending now place their +1/+1 counter, and Emberwake Brazier now deals its damage to a creature.",
-              "An aura that asked you to sacrifice a creature to drain life was draining without sacrificing anything. It now pays what it says: with no creature to give up, it does not drain."
-            ]
-          },
-          {
-            "heading": "Balance",
-            "items": [
-              "Eight auras that drained the opponent every turn for free now ask for a condition, and a different one on each.",
-              "Font of Withering and Everflame Reliquary look at your graveyard. Court of Crimson Thirst and Crimson Host Altar, at the creatures you control. Everburning Pyre and Threshold of the Flame, at your red influence.",
-              "Debtstone Cairn looks at your life, and Emberwake Brazier at the cards left in your hand.",
-              "None of the eight changes its name, cost or art: only when it turns on."
             ]
           }
         ]

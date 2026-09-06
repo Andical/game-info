@@ -34,33 +34,60 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.149",
+    "version": "0.0.151",
     "date": "2026-09-06",
-    "published_at": "2026-09-06T02:15:18",
+    "published_at": "2026-09-06T18:53:05",
     "es": {
-      "title": "Novedades de la versión 0.0.149",
+      "title": "Novedades de la versión 0.0.151",
       "sections": [
         {
           "heading": "Correcciones",
           "items": [
-            "Las habilidades que se disparan y dicen «criatura enemiga objetivo» ya te dejan elegir a cuál, con la misma flecha que usa Matador. Antes se resolvían sobre tu propia criatura."
+            "Penitente Nocturno ya devuelve a la mano una criatura del rival cuando recibe daño, y te deja elegir cuál. Antes se devolvía a sí misma."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.149",
+      "title": "What's new in 0.0.151",
       "sections": [
         {
           "heading": "Fixes",
           "items": [
-            "Triggered abilities that say “target enemy creature” now let you pick which one, with the same arrow Slayer uses. They used to resolve on your own creature instead."
+            "Nightvow Penitent now returns an enemy creature to its owner's hand when it takes damage, and lets you pick which one. It used to return itself instead."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.151",
+      "date": "2026-09-06",
+      "published_at": "2026-09-06T18:53:05",
+      "es": {
+        "title": "Novedades de la versión 0.0.151",
+        "sections": [
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Penitente Nocturno ya devuelve a la mano una criatura del rival cuando recibe daño, y te deja elegir cuál. Antes se devolvía a sí misma."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.151",
+        "sections": [
+          {
+            "heading": "Fixes",
+            "items": [
+              "Nightvow Penitent now returns an enemy creature to its owner's hand when it takes damage, and lets you pick which one. It used to return itself instead."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.149",
       "date": "2026-09-06",
@@ -222,33 +249,6 @@
             "heading": "Fixes",
             "items": [
               "Rival names on the adventure map now update when you switch language without leaving the screen. They used to stay in the previous language until you re-entered."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.136",
-      "date": "2026-09-03",
-      "published_at": "2026-09-03T05:36:22",
-      "es": {
-        "title": "Novedades de la versión 0.0.136",
-        "sections": [
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Canto de la Sima ya se puede lanzar aunque el rival no tenga criaturas: su parte de agotar es un extra condicional, no un requisito. Antes el juego rechazaba la jugada sin explicar por que."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.136",
-        "sections": [
-          {
-            "heading": "Fixes",
-            "items": [
-              "Chant of the Deep can now be cast even when your opponent has no creatures: its tap is a conditional bonus, not a requirement. Before, the game refused the play without saying why."
             ]
           }
         ]

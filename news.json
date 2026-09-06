@@ -34,49 +34,60 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.147",
-    "date": "2026-09-05",
-    "published_at": "2026-09-05T23:07:34",
+    "version": "0.0.149",
+    "date": "2026-09-06",
+    "published_at": "2026-09-06T02:15:18",
     "es": {
-      "title": "Novedades de la versión 0.0.147",
+      "title": "Novedades de la versión 0.0.149",
       "sections": [
-        {
-          "heading": "Nuevo",
-          "items": [
-            "Ya están disponibles las Aventuras: caminos largos de 12 combates con su propia historia. La Senda del Cuervo es gratuita para todo el mundo; The Echo Deep se compra una vez y es tuya para siempre.",
-            "Ocho cartas más entran en circulación al terminarse sus ilustraciones: ya salen en sobres, en la colección y en los mazos."
-          ]
-        },
         {
           "heading": "Correcciones",
           "items": [
-            "Las tierras dobles del ciclo Cresta ya cumplen su Explorar al entrar en juego: antes no llegaba a hacerse, y en algunos casos le tocaba al rival en vez de a ti.",
-            "La IA ya no se sacrifica su última criatura por una carta, ni arrasa el campo cuando es ella la que va ganando en mesa: cuando una jugada le sale cara, se la guarda."
+            "Las habilidades que se disparan y dicen «criatura enemiga objetivo» ya te dejan elegir a cuál, con la misma flecha que usa Matador. Antes se resolvían sobre tu propia criatura."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.147",
+      "title": "What's new in 0.0.149",
       "sections": [
-        {
-          "heading": "New",
-          "items": [
-            "Adventures are now available: long roads of 12 fights with a story of their own. Ravens Path is free for everyone; The Echo Deep is a one-time purchase, yours to keep.",
-            "Eight more cards enter circulation now that their art is finished: they show up in packs, in your collection and in decks."
-          ]
-        },
         {
           "heading": "Fixes",
           "items": [
-            "The dual Crest lands now actually perform their Scout when they come into play: before it never happened, and in some cases it went to your opponent instead of you.",
-            "The AI no longer sacrifices its last creature for a single card, nor wipes the board when it is the one ahead on it: when a play costs it more than it gains, it holds the card."
+            "Triggered abilities that say “target enemy creature” now let you pick which one, with the same arrow Slayer uses. They used to resolve on your own creature instead."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.149",
+      "date": "2026-09-06",
+      "published_at": "2026-09-06T02:15:18",
+      "es": {
+        "title": "Novedades de la versión 0.0.149",
+        "sections": [
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Las habilidades que se disparan y dicen «criatura enemiga objetivo» ya te dejan elegir a cuál, con la misma flecha que usa Matador. Antes se resolvían sobre tu propia criatura."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.149",
+        "sections": [
+          {
+            "heading": "Fixes",
+            "items": [
+              "Triggered abilities that say “target enemy creature” now let you pick which one, with the same arrow Slayer uses. They used to resolve on your own creature instead."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.147",
       "date": "2026-09-05",
@@ -238,55 +249,6 @@
             "heading": "Fixes",
             "items": [
               "Chant of the Deep can now be cast even when your opponent has no creatures: its tap is a conditional bonus, not a requirement. Before, the game refused the play without saying why."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.133",
-      "date": "2026-09-02",
-      "published_at": "2026-09-02T22:53:57",
-      "es": {
-        "title": "Novedades de la versión 0.0.133",
-        "sections": [
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Vigilia del Guardian, Sigilo de Escarcha y Relicario del Fango ya hacen lo que dice su texto al empezar tu turno. Antes no ocurria nada.",
-              "Corregido el texto de reglas de 23 cartas en las que la etiqueta de la habilidad salia repetida (por ejemplo «Legado: Legado - Cuando esta muere...»).",
-              "En la pestana Destacado de la tienda, los productos ya cambian de idioma cuando lo cambias en Ajustes."
-            ]
-          },
-          {
-            "heading": "Equilibrio",
-            "items": [
-              "Las auras que drenaban vida cada turno sin pedir nada a cambio eran demasiado fuertes: ahora cada una exige una condicion acorde a su color.",
-              "Cambian asi Fuente del Marchitar, Corte de la Sed Carmesi, Altar Carmesi, Umbral de la Llama Viva, Brasero Ardiente y Relicario Eterno.",
-              "Martir Hueca y Guardian de Escamas ahora vuelan, como corresponde a un angel y a un dragon. A cambio pierden 1 punto de defensa.",
-              "El rival controlado por la maquina ya valora bien las cartas que drenan vida turno tras turno: antes las infravaloraba y las jugaba tarde."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.133",
-        "sections": [
-          {
-            "heading": "Fixes",
-            "items": [
-              "Grove Warden's Vigil, Frostbind Sigil and Mireheart Reliquary now do what their text says at the start of your turn. Before, nothing happened.",
-              "Fixed the rules text on 23 cards where the ability label appeared twice (for example «Legacy: Legacy - When this dies...»).",
-              "In the shop's Featured tab, products now switch language when you change it in Settings."
-            ]
-          },
-          {
-            "heading": "Balance",
-            "items": [
-              "Auras that drained your opponent's life every turn for free were too strong: each one now asks for a condition that fits its colour.",
-              "This affects Font of Withering, Court of Crimson Thirst, Crimson Host Altar, Threshold of the Flame, Emberwake Brazier and Everflame Reliquary.",
-              "Hollow Martyr and Emberscale Warden now have Flying, as an angel and a dragon should. In exchange, each loses 1 point of defence.",
-              "The AI opponent now properly values cards that drain life turn after turn. Before it undervalued them and played them too late."
             ]
           }
         ]

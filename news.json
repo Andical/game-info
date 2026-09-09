@@ -34,33 +34,92 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.152",
-    "date": "2026-09-06",
-    "published_at": "2026-09-06T19:32:41",
+    "version": "0.0.157",
+    "date": "2026-09-09",
+    "published_at": "2026-09-09T02:31:44",
     "es": {
-      "title": "Novedades de la versión 0.0.152",
+      "title": "Novedades de la versión 0.0.157",
       "sections": [
+        {
+          "heading": "Mejoras",
+          "items": [
+            "Abrir sobres va más rápido: el juego recargaba el catálogo entero de cartas cada vez que abrías uno."
+          ]
+        },
         {
           "heading": "Correcciones",
           "items": [
-            "Las auras que dicen «criatura objetivo» al empezar tu turno —Sigilo de Escarcha, Brasero Ardiente y Vigilia del Alba— ya te dejan elegir a cuál, con la misma flecha del resto. Antes elegía el juego por ti."
+            "Al añadir a un amigo ya te decimos qué ha pasado: si se envió, si ese nombre no existe, si ya sois amigos o si ya le habías mandado una solicitud. Antes no aparecía nada y no sabías si había funcionado.",
+            "Si escribes un mensaje privado a alguien que te ha bloqueado, ahora te avisa de que no se ha entregado. Antes el mensaje se quedaba en la conversación como si hubiera llegado.",
+            "Invitar a un amigo a un duelo ya te dice qué ha fallado: por ejemplo que no tienes mazo activo, que tu amigo tampoco lo tiene, o que la invitación ya no está disponible. Antes no salía nada."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.152",
+      "title": "What's new in 0.0.157",
       "sections": [
+        {
+          "heading": "Improvements",
+          "items": [
+            "Opening packs is faster: the game used to reload the entire card catalog every single time you opened one."
+          ]
+        },
         {
           "heading": "Fixes",
           "items": [
-            "Auras that say “target creature” at the start of your turn —Frostbind Sigil, Emberwake Brazier and Vigil of the Dawn— now let you pick which one, with the same arrow as everything else. The game used to choose for you."
+            "Adding a friend now tells you what happened: whether it was sent, that the name does not exist, that you are already friends, or that you had already sent them a request. Before, nothing showed up and you could not tell if it had worked.",
+            "If you write a private message to someone who has blocked you, the game now tells you it was not delivered. Before, the message just sat in the conversation as if it had arrived.",
+            "Inviting a friend to a duel now tells you what went wrong: for example that you have no active deck, that your friend does not have one either, or that the invite is no longer available. Before, nothing showed up."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.157",
+      "date": "2026-09-09",
+      "published_at": "2026-09-09T02:31:44",
+      "es": {
+        "title": "Novedades de la versión 0.0.157",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Abrir sobres va más rápido: el juego recargaba el catálogo entero de cartas cada vez que abrías uno."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Al añadir a un amigo ya te decimos qué ha pasado: si se envió, si ese nombre no existe, si ya sois amigos o si ya le habías mandado una solicitud. Antes no aparecía nada y no sabías si había funcionado.",
+              "Si escribes un mensaje privado a alguien que te ha bloqueado, ahora te avisa de que no se ha entregado. Antes el mensaje se quedaba en la conversación como si hubiera llegado.",
+              "Invitar a un amigo a un duelo ya te dice qué ha fallado: por ejemplo que no tienes mazo activo, que tu amigo tampoco lo tiene, o que la invitación ya no está disponible. Antes no salía nada."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.157",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "Opening packs is faster: the game used to reload the entire card catalog every single time you opened one."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Adding a friend now tells you what happened: whether it was sent, that the name does not exist, that you are already friends, or that you had already sent them a request. Before, nothing showed up and you could not tell if it had worked.",
+              "If you write a private message to someone who has blocked you, the game now tells you it was not delivered. Before, the message just sat in the conversation as if it had arrived.",
+              "Inviting a friend to a duel now tells you what went wrong: for example that you have no active deck, that your friend does not have one either, or that the invite is no longer available. Before, nothing showed up."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.152",
       "date": "2026-09-06",
@@ -180,49 +239,6 @@
             "items": [
               "The dual Crest lands now actually perform their Scout when they come into play: before it never happened, and in some cases it went to your opponent instead of you.",
               "The AI no longer sacrifices its last creature for a single card, nor wipes the board when it is the one ahead on it: when a play costs it more than it gains, it holds the card."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.145",
-      "date": "2026-09-04",
-      "published_at": "2026-09-04T20:37:41",
-      "es": {
-        "title": "Novedades de la versión 0.0.145",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Cada modo del menú de juego lleva ahora una línea que explica qué es y qué cuesta, para no tener que entrar a verlo.",
-              "El texto de las escenas de historia aparece a un ritmo más pausado, para poder leerlo sin prisa.",
-              "Las escenas de historia llegan mejor repartidas: la presentación de cada rival suena al entrar a su combate, y solo la del rival que eliges."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Varios textos salían en el idioma equivocado: las gemas y los fragmentos de la ventana de recompensas, el botón de ajustes dentro de la partida, el aviso al comprar gemas y los mensajes de error al guardar o borrar un mazo."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.145",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "Each mode in the play menu now carries a line explaining what it is and what it costs, so you do not have to go in to find out.",
-              "Text in story scenes now appears at a calmer pace, so you can read it without rushing.",
-              "Story scenes are better spaced out: each rival's introduction now plays as you enter their fight, and only for the rival you pick."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "Several texts showed up in the wrong language: the gems and shards in the rewards window, the settings button inside a match, the gem purchase notice, and the error messages when saving or deleting a deck."
             ]
           }
         ]

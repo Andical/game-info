@@ -34,49 +34,108 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.157",
-    "date": "2026-09-09",
-    "published_at": "2026-09-09T02:31:44",
+    "version": "0.0.159",
+    "date": "2026-09-10",
+    "published_at": "2026-09-10T05:32:33",
     "es": {
-      "title": "Novedades de la versión 0.0.157",
+      "title": "Novedades de la versión 0.0.159",
       "sections": [
+        {
+          "heading": "Nuevo",
+          "items": [
+            "Nueva aventura: La Otra Citación. 12 combates contra los que fueron citados y se quedaron por el camino, en 3 zonas. Ya está a la venta."
+          ]
+        },
         {
           "heading": "Mejoras",
           "items": [
-            "Abrir sobres va más rápido: el juego recargaba el catálogo entero de cartas cada vez que abrías uno."
+            "Abrir sobres va más suave: el arte de las cartas se prepara antes de la animación, así que el sobre ya no da tirones al volar."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "Al añadir a un amigo ya te decimos qué ha pasado: si se envió, si ese nombre no existe, si ya sois amigos o si ya le habías mandado una solicitud. Antes no aparecía nada y no sabías si había funcionado.",
-            "Si escribes un mensaje privado a alguien que te ha bloqueado, ahora te avisa de que no se ha entregado. Antes el mensaje se quedaba en la conversación como si hubiera llegado.",
-            "Invitar a un amigo a un duelo ya te dice qué ha fallado: por ejemplo que no tienes mazo activo, que tu amigo tampoco lo tiene, o que la invitación ya no está disponible. Antes no salía nada."
+            "La tienda mostraba productos sin descripción, y con el nombre siempre en el mismo idioma. Ya salen traducidos y cambian al cambiar de idioma."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.157",
+      "title": "What's new in 0.0.159",
       "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New adventure: The Second Summons. 12 fights against those who were summoned and never made it, across 3 zones. On sale now."
+          ]
+        },
         {
           "heading": "Improvements",
           "items": [
-            "Opening packs is faster: the game used to reload the entire card catalog every single time you opened one."
+            "Opening packs is smoother: card art is prepared before the animation, so the pack no longer stutters as it flies."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "Adding a friend now tells you what happened: whether it was sent, that the name does not exist, that you are already friends, or that you had already sent them a request. Before, nothing showed up and you could not tell if it had worked.",
-            "If you write a private message to someone who has blocked you, the game now tells you it was not delivered. Before, the message just sat in the conversation as if it had arrived.",
-            "Inviting a friend to a duel now tells you what went wrong: for example that you have no active deck, that your friend does not have one either, or that the invite is no longer available. Before, nothing showed up."
+            "The shop showed products with no description, and the name always in the same language. They are translated now and follow your language setting."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.159",
+      "date": "2026-09-10",
+      "published_at": "2026-09-10T05:32:33",
+      "es": {
+        "title": "Novedades de la versión 0.0.159",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Nueva aventura: La Otra Citación. 12 combates contra los que fueron citados y se quedaron por el camino, en 3 zonas. Ya está a la venta."
+            ]
+          },
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Abrir sobres va más suave: el arte de las cartas se prepara antes de la animación, así que el sobre ya no da tirones al volar."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "La tienda mostraba productos sin descripción, y con el nombre siempre en el mismo idioma. Ya salen traducidos y cambian al cambiar de idioma."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.159",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "New adventure: The Second Summons. 12 fights against those who were summoned and never made it, across 3 zones. On sale now."
+            ]
+          },
+          {
+            "heading": "Improvements",
+            "items": [
+              "Opening packs is smoother: card art is prepared before the animation, so the pack no longer stutters as it flies."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "The shop showed products with no description, and the name always in the same language. They are translated now and follow your language setting."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.157",
       "date": "2026-09-09",
@@ -196,49 +255,6 @@
             "heading": "Fixes",
             "items": [
               "Triggered abilities that say “target enemy creature” now let you pick which one, with the same arrow Slayer uses. They used to resolve on your own creature instead."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.147",
-      "date": "2026-09-05",
-      "published_at": "2026-09-05T23:07:34",
-      "es": {
-        "title": "Novedades de la versión 0.0.147",
-        "sections": [
-          {
-            "heading": "Nuevo",
-            "items": [
-              "Ya están disponibles las Aventuras: caminos largos de 12 combates con su propia historia. La Senda del Cuervo es gratuita para todo el mundo; The Echo Deep se compra una vez y es tuya para siempre.",
-              "Ocho cartas más entran en circulación al terminarse sus ilustraciones: ya salen en sobres, en la colección y en los mazos."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Las tierras dobles del ciclo Cresta ya cumplen su Explorar al entrar en juego: antes no llegaba a hacerse, y en algunos casos le tocaba al rival en vez de a ti.",
-              "La IA ya no se sacrifica su última criatura por una carta, ni arrasa el campo cuando es ella la que va ganando en mesa: cuando una jugada le sale cara, se la guarda."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.147",
-        "sections": [
-          {
-            "heading": "New",
-            "items": [
-              "Adventures are now available: long roads of 12 fights with a story of their own. Ravens Path is free for everyone; The Echo Deep is a one-time purchase, yours to keep.",
-              "Eight more cards enter circulation now that their art is finished: they show up in packs, in your collection and in decks."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "The dual Crest lands now actually perform their Scout when they come into play: before it never happened, and in some cases it went to your opponent instead of you.",
-              "The AI no longer sacrifices its last creature for a single card, nor wipes the board when it is the one ahead on it: when a play costs it more than it gains, it holds the card."
             ]
           }
         ]

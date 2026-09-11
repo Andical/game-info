@@ -34,57 +34,108 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.159",
-    "date": "2026-09-10",
-    "published_at": "2026-09-10T05:32:33",
+    "version": "0.0.161",
+    "date": "2026-09-11",
+    "published_at": "2026-09-11T02:01:51",
     "es": {
-      "title": "Novedades de la versión 0.0.159",
+      "title": "Novedades de la versión 0.0.161",
       "sections": [
-        {
-          "heading": "Nuevo",
-          "items": [
-            "Nueva aventura: La Otra Citación. 12 combates contra los que fueron citados y se quedaron por el camino, en 3 zonas. Ya está a la venta."
-          ]
-        },
         {
           "heading": "Mejoras",
           "items": [
-            "Abrir sobres va más suave: el arte de las cartas se prepara antes de la animación, así que el sobre ya no da tirones al volar."
+            "Añadir cartas al mazo en el editor ya no congela la lista un momento: cada clic responde al instante y el scroll sigue fluido.",
+            "Las imágenes del menú de modos de juego ya no muestran picos en sus esquinas redondeadas, y todos los títulos caben en una línea.",
+            "Cada aventura tiene ahora su propia portada, en la tienda y en la lista de aventuras.",
+            "Rendirse ahora pide confirmación: un clic despistado ya no te hace perder la partida."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "La tienda mostraba productos sin descripción, y con el nombre siempre en el mismo idioma. Ya salen traducidos y cambian al cambiar de idioma."
+            "Las criaturas con Acometida que eligen una criatura al atacar ahora te dejan elegirla con la flecha, y antes de que el rival declare sus bloqueos. Antes no te dejaban elegir, o el rival bloqueaba antes de que pudieras hacerlo.",
+            "Una criatura silenciada recupera su texto al salir del campo de batalla: si muere puede usar Renacer desde el cementerio, y si vuelve a tu mano se juega con todas sus habilidades.",
+            "Mazmorra: ya no se cuentan derrotas de combates que no llegaste a jugar, por ejemplo cuando el combate no llegaba a arrancar.",
+            "Mazmorra: si vuelves a entrar en un combate tras una desconexión, al terminar vuelves a tu run y no al menú principal."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.159",
+      "title": "What's new in 0.0.161",
       "sections": [
-        {
-          "heading": "New",
-          "items": [
-            "New adventure: The Second Summons. 12 fights against those who were summoned and never made it, across 3 zones. On sale now."
-          ]
-        },
         {
           "heading": "Improvements",
           "items": [
-            "Opening packs is smoother: card art is prepared before the animation, so the pack no longer stutters as it flies."
+            "Adding cards to a deck in the editor no longer freezes the list for a moment: every click responds instantly and scrolling stays smooth.",
+            "The game mode images no longer show jagged edges on their rounded corners, and every title fits on one line.",
+            "Each adventure now has its own cover art, in the shop and in the adventures list.",
+            "Surrender now asks for confirmation, so a stray click no longer costs you the match."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "The shop showed products with no description, and the name always in the same language. They are translated now and follow your language setting."
+            "Creatures with Assault that target a creature when attacking now let you pick it with the arrow, before your opponent declares blockers. Before, they didn't let you choose, or your opponent blocked before you could.",
+            "A silenced creature gets its text back when it leaves the battlefield: if it dies it can use Rebirth from the graveyard, and if it returns to your hand it plays with all its abilities.",
+            "Dungeon: losses from fights you never got to play, for example when a fight failed to start, no longer count.",
+            "Dungeon: if you rejoin a fight after a disconnection, you go back to your run when it ends instead of the main menu."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.161",
+      "date": "2026-09-11",
+      "published_at": "2026-09-11T02:01:51",
+      "es": {
+        "title": "Novedades de la versión 0.0.161",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Añadir cartas al mazo en el editor ya no congela la lista un momento: cada clic responde al instante y el scroll sigue fluido.",
+              "Las imágenes del menú de modos de juego ya no muestran picos en sus esquinas redondeadas, y todos los títulos caben en una línea.",
+              "Cada aventura tiene ahora su propia portada, en la tienda y en la lista de aventuras.",
+              "Rendirse ahora pide confirmación: un clic despistado ya no te hace perder la partida."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Las criaturas con Acometida que eligen una criatura al atacar ahora te dejan elegirla con la flecha, y antes de que el rival declare sus bloqueos. Antes no te dejaban elegir, o el rival bloqueaba antes de que pudieras hacerlo.",
+              "Una criatura silenciada recupera su texto al salir del campo de batalla: si muere puede usar Renacer desde el cementerio, y si vuelve a tu mano se juega con todas sus habilidades.",
+              "Mazmorra: ya no se cuentan derrotas de combates que no llegaste a jugar, por ejemplo cuando el combate no llegaba a arrancar.",
+              "Mazmorra: si vuelves a entrar en un combate tras una desconexión, al terminar vuelves a tu run y no al menú principal."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.161",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "Adding cards to a deck in the editor no longer freezes the list for a moment: every click responds instantly and scrolling stays smooth.",
+              "The game mode images no longer show jagged edges on their rounded corners, and every title fits on one line.",
+              "Each adventure now has its own cover art, in the shop and in the adventures list.",
+              "Surrender now asks for confirmation, so a stray click no longer costs you the match."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Creatures with Assault that target a creature when attacking now let you pick it with the arrow, before your opponent declares blockers. Before, they didn't let you choose, or your opponent blocked before you could.",
+              "A silenced creature gets its text back when it leaves the battlefield: if it dies it can use Rebirth from the graveyard, and if it returns to your hand it plays with all its abilities.",
+              "Dungeon: losses from fights you never got to play, for example when a fight failed to start, no longer count.",
+              "Dungeon: if you rejoin a fight after a disconnection, you go back to your run when it ends instead of the main menu."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.159",
       "date": "2026-09-10",
@@ -228,33 +279,6 @@
             "heading": "Fixes",
             "items": [
               "Nightvow Penitent now returns an enemy creature to its owner's hand when it takes damage, and lets you pick which one. It used to return itself instead."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.149",
-      "date": "2026-09-06",
-      "published_at": "2026-09-06T02:15:18",
-      "es": {
-        "title": "Novedades de la versión 0.0.149",
-        "sections": [
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Las habilidades que se disparan y dicen «criatura enemiga objetivo» ya te dejan elegir a cuál, con la misma flecha que usa Matador. Antes se resolvían sobre tu propia criatura."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.149",
-        "sections": [
-          {
-            "heading": "Fixes",
-            "items": [
-              "Triggered abilities that say “target enemy creature” now let you pick which one, with the same arrow Slayer uses. They used to resolve on your own creature instead."
             ]
           }
         ]

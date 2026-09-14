@@ -34,47 +34,112 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.167",
+    "version": "0.0.169",
     "date": "2026-09-14",
-    "published_at": "2026-09-14T11:16:03",
+    "published_at": "2026-09-14T12:53:51",
     "es": {
-      "title": "Novedades de la versión 0.0.167",
+      "title": "Novedades de la versión 0.0.169",
       "sections": [
         {
           "heading": "Mejoras",
           "items": [
-            "El final de una mazmorra se ve como el del Sellado: marcador de victorias y derrotas, botín en grande sin cajas grises, las cartas del premio con su vista ampliada y botones a juego."
+            "Los rivales de Mazmorra y Sellado tienen nombres y títulos nuevos que encajan con cualquier retrato: se acabó ver un título femenino sobre un guerrero barbudo o al revés."
+          ]
+        },
+        {
+          "heading": "Correcciones",
+          "items": [
+            "No responder a un hechizo del rival ya no cuenta como estar ausente: antes, en partidas con muchos hechizos, podía acortarte los turnos e incluso dar la partida por abandonada."
           ]
         },
         {
           "heading": "Equilibrio",
           "items": [
-            "El silencio ahora es permanente, como en Eternal: una carta silenciada sigue sin texto en el cementerio y en la mano, así que ya no puede usar Renacer.",
-            "Mazmorra: si pierdes un combate, el siguiente es contra un rival nuevo, igual que en el Sellado."
+            "La IA ya no pierde su turno cuando te obliga a descartar o a elegir algo: espera a que decidas y sigue jugando.",
+            "La IA ya juega los hechizos de varios efectos que piden un objetivo, como Carga Primordial o Rugido de Estampida."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.167",
+      "title": "What's new in 0.0.169",
       "sections": [
         {
           "heading": "Improvements",
           "items": [
-            "The end of a dungeon now looks like Sealed's: a wins and losses scoreboard, full-size loot without grey boxes, the reward cards with their close-up view, and matching buttons."
+            "Dungeon and Sealed rivals have new names and titles that fit any portrait, so a title no longer clashes with the face it's shown on."
+          ]
+        },
+        {
+          "heading": "Fixes",
+          "items": [
+            "Not responding to an opponent's spell no longer counts as being away: in spell-heavy games it could shorten your turns and even end the game as abandoned."
           ]
         },
         {
           "heading": "Balance",
           "items": [
-            "Silence is now permanent, as in Eternal: a silenced card stays without text in the graveyard and in your hand, so it can no longer use Rebirth.",
-            "Dungeon: if you lose a fight, the next one is against a new rival, just like in Sealed."
+            "The AI no longer loses its turn when it makes you discard or choose something: it waits for your decision and keeps playing.",
+            "The AI now plays multi-effect spells that need a target, such as Primordial Charge or Stampede Roar."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.169",
+      "date": "2026-09-14",
+      "published_at": "2026-09-14T12:53:51",
+      "es": {
+        "title": "Novedades de la versión 0.0.169",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Los rivales de Mazmorra y Sellado tienen nombres y títulos nuevos que encajan con cualquier retrato: se acabó ver un título femenino sobre un guerrero barbudo o al revés."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "No responder a un hechizo del rival ya no cuenta como estar ausente: antes, en partidas con muchos hechizos, podía acortarte los turnos e incluso dar la partida por abandonada."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "La IA ya no pierde su turno cuando te obliga a descartar o a elegir algo: espera a que decidas y sigue jugando.",
+              "La IA ya juega los hechizos de varios efectos que piden un objetivo, como Carga Primordial o Rugido de Estampida."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.169",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "Dungeon and Sealed rivals have new names and titles that fit any portrait, so a title no longer clashes with the face it's shown on."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Not responding to an opponent's spell no longer counts as being away: in spell-heavy games it could shorten your turns and even end the game as abandoned."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "The AI no longer loses its turn when it makes you discard or choose something: it waits for your decision and keeps playing.",
+              "The AI now plays multi-effect spells that need a target, such as Primordial Charge or Stampede Roar."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.167",
       "date": "2026-09-14",
@@ -284,57 +349,6 @@
               "A silenced creature gets its text back when it leaves the battlefield: if it dies it can use Rebirth from the graveyard, and if it returns to your hand it plays with all its abilities.",
               "Dungeon: losses from fights you never got to play, for example when a fight failed to start, no longer count.",
               "Dungeon: if you rejoin a fight after a disconnection, you go back to your run when it ends instead of the main menu."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.159",
-      "date": "2026-09-10",
-      "published_at": "2026-09-10T05:32:33",
-      "es": {
-        "title": "Novedades de la versión 0.0.159",
-        "sections": [
-          {
-            "heading": "Nuevo",
-            "items": [
-              "Nueva aventura: La Otra Citación. 12 combates contra los que fueron citados y se quedaron por el camino, en 3 zonas. Ya está a la venta."
-            ]
-          },
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Abrir sobres va más suave: el arte de las cartas se prepara antes de la animación, así que el sobre ya no da tirones al volar."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "La tienda mostraba productos sin descripción, y con el nombre siempre en el mismo idioma. Ya salen traducidos y cambian al cambiar de idioma."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.159",
-        "sections": [
-          {
-            "heading": "New",
-            "items": [
-              "New adventure: The Second Summons. 12 fights against those who were summoned and never made it, across 3 zones. On sale now."
-            ]
-          },
-          {
-            "heading": "Improvements",
-            "items": [
-              "Opening packs is smoother: card art is prepared before the animation, so the pack no longer stutters as it flies."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "The shop showed products with no description, and the name always in the same language. They are translated now and follow your language setting."
             ]
           }
         ]

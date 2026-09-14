@@ -34,77 +34,88 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.166",
+    "version": "0.0.167",
     "date": "2026-09-14",
-    "published_at": "2026-09-14T07:34:35",
+    "published_at": "2026-09-14T11:16:03",
     "es": {
-      "title": "Novedades de la versión 0.0.166",
+      "title": "Novedades de la versión 0.0.167",
       "sections": [
         {
           "heading": "Mejoras",
           "items": [
-            "Al terminar una mazmorra, las cartas del premio se ven dibujadas y en grande, con la vista ampliada al pasar el ratón, igual que en el Sellado."
-          ]
-        },
-        {
-          "heading": "Correcciones",
-          "items": [
-            "Si varias cartas te hacen explorar a la vez, ahora se resuelven todas, una detrás de otra: antes solo contaba la última.",
-            "Una criatura que gana Intercepción en mitad del combate ya puede bloquear voladoras, y los refuerzos que lanzas mientras eliges bloqueadores se ven al momento en la carta.",
-            "Mientras ordenas el daño contra varios bloqueadores ya no se pueden lanzar hechizos: se perdía el orden. Lánzalos justo después, en la reacción de combate.",
-            "Si un hechizo no se puede lanzar mientras eliges bloqueadores u ordenas el daño, ya no se borra lo que llevabas elegido.",
-            "Una criatura con Fervor que robas (por ejemplo con Vaskhel) ya puede atacar ese mismo turno si está sin girar.",
-            "Una criatura con Osario u Horda silenciada ya no muere: se queda como un 1/1 que deja de crecer y conserva los refuerzos de otras cartas.",
-            "Textos de cartas revisados: los nombres de las habilidades coinciden con su etiqueta (Abrumar, Impacto Doble, Sanguina, Aurora…), y Bendición de Luz y Relicario Eterno vuelven a decir lo que hacen.",
-            "El botón para volver al Sellado al terminar una partida ya no corta su texto."
+            "El final de una mazmorra se ve como el del Sellado: marcador de victorias y derrotas, botín en grande sin cajas grises, las cartas del premio con su vista ampliada y botones a juego."
           ]
         },
         {
           "heading": "Equilibrio",
           "items": [
-            "Sellado: tus rivales también abren 10 sobres y juegan mazos de 45, como tú, y la escalera se ordena para empezar por rivales más asequibles.",
-            "La IA ya no gasta trucos de un turno como Sanguina en criaturas con las que después no ataca.",
-            "Sellado: si pierdes un combate, el siguiente es contra un rival nuevo del mismo nivel, y la dificultad de cada rival se ajusta con los resultados de todos los jugadores.",
-            "La IA ataca con sus criaturas con Arenga cuando no arriesga nada, en vez de dejarlas en casa."
+            "El silencio ahora es permanente, como en Eternal: una carta silenciada sigue sin texto en el cementerio y en la mano, así que ya no puede usar Renacer.",
+            "Mazmorra: si pierdes un combate, el siguiente es contra un rival nuevo, igual que en el Sellado."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.166",
+      "title": "What's new in 0.0.167",
       "sections": [
         {
           "heading": "Improvements",
           "items": [
-            "When you finish a dungeon, the reward cards are shown full size, with the close-up view on hover, just like in Sealed."
-          ]
-        },
-        {
-          "heading": "Fixes",
-          "items": [
-            "When several cards make you scout at the same time, all of them now resolve, one after another: before, only the last one counted.",
-            "A creature that gains Intercept mid-combat can now block flyers, and buffs you cast while choosing blockers show on the card right away.",
-            "You can no longer cast spells while ordering damage against several blockers, which lost the order. Cast them right after, in the combat reaction.",
-            "If a spell can't be cast while you choose blockers or order damage, what you had chosen is no longer wiped.",
-            "A creature with Fervor that you steal (for example with Vaskhel) can now attack that same turn if it's untapped.",
-            "A silenced creature with Boneyard or Horde no longer dies: it stays as a 1/1 that stops growing and keeps buffs from other cards.",
-            "Card texts reviewed: ability names match their keyword label (Overwhelm, Double Damage, Leech…), and Blessing of Light and Everflame Reliquary once again say what they do.",
-            "The button to return to Sealed after a game no longer cuts off its text."
+            "The end of a dungeon now looks like Sealed's: a wins and losses scoreboard, full-size loot without grey boxes, the reward cards with their close-up view, and matching buttons."
           ]
         },
         {
           "heading": "Balance",
           "items": [
-            "Sealed: your opponents also open 10 packs and play 45-card decks, just like you, and the ladder is arranged to start with easier opponents.",
-            "The AI no longer wastes one-turn tricks like Leech on creatures it then doesn't attack with.",
-            "Sealed: if you lose a fight, the next one is against a new rival of the same level, and each rival's difficulty adjusts to the results of all players.",
-            "The AI now attacks with its Rally creatures when it risks nothing, instead of keeping them home."
+            "Silence is now permanent, as in Eternal: a silenced card stays without text in the graveyard and in your hand, so it can no longer use Rebirth.",
+            "Dungeon: if you lose a fight, the next one is against a new rival, just like in Sealed."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.167",
+      "date": "2026-09-14",
+      "published_at": "2026-09-14T11:16:03",
+      "es": {
+        "title": "Novedades de la versión 0.0.167",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "El final de una mazmorra se ve como el del Sellado: marcador de victorias y derrotas, botín en grande sin cajas grises, las cartas del premio con su vista ampliada y botones a juego."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "El silencio ahora es permanente, como en Eternal: una carta silenciada sigue sin texto en el cementerio y en la mano, así que ya no puede usar Renacer.",
+              "Mazmorra: si pierdes un combate, el siguiente es contra un rival nuevo, igual que en el Sellado."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.167",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "The end of a dungeon now looks like Sealed's: a wins and losses scoreboard, full-size loot without grey boxes, the reward cards with their close-up view, and matching buttons."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "Silence is now permanent, as in Eternal: a silenced card stays without text in the graveyard and in your hand, so it can no longer use Rebirth.",
+              "Dungeon: if you lose a fight, the next one is against a new rival, just like in Sealed."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.166",
       "date": "2026-09-14",
@@ -324,49 +335,6 @@
             "heading": "Fixes",
             "items": [
               "The shop showed products with no description, and the name always in the same language. They are translated now and follow your language setting."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.157",
-      "date": "2026-09-09",
-      "published_at": "2026-09-09T02:31:44",
-      "es": {
-        "title": "Novedades de la versión 0.0.157",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Abrir sobres va más rápido: el juego recargaba el catálogo entero de cartas cada vez que abrías uno."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Al añadir a un amigo ya te decimos qué ha pasado: si se envió, si ese nombre no existe, si ya sois amigos o si ya le habías mandado una solicitud. Antes no aparecía nada y no sabías si había funcionado.",
-              "Si escribes un mensaje privado a alguien que te ha bloqueado, ahora te avisa de que no se ha entregado. Antes el mensaje se quedaba en la conversación como si hubiera llegado.",
-              "Invitar a un amigo a un duelo ya te dice qué ha fallado: por ejemplo que no tienes mazo activo, que tu amigo tampoco lo tiene, o que la invitación ya no está disponible. Antes no salía nada."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.157",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "Opening packs is faster: the game used to reload the entire card catalog every single time you opened one."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "Adding a friend now tells you what happened: whether it was sent, that the name does not exist, that you are already friends, or that you had already sent them a request. Before, nothing showed up and you could not tell if it had worked.",
-              "If you write a private message to someone who has blocked you, the game now tells you it was not delivered. Before, the message just sat in the conversation as if it had arrived.",
-              "Inviting a friend to a duel now tells you what went wrong: for example that you have no active deck, that your friend does not have one either, or that the invite is no longer available. Before, nothing showed up."
             ]
           }
         ]

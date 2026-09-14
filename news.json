@@ -34,59 +34,116 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.169",
+    "version": "0.0.170",
     "date": "2026-09-14",
-    "published_at": "2026-09-14T12:53:51",
+    "published_at": "2026-09-14T22:25:43",
     "es": {
-      "title": "Novedades de la versión 0.0.169",
+      "title": "Novedades de la versión 0.0.170",
       "sections": [
         {
-          "heading": "Mejoras",
+          "heading": "Nuevo",
           "items": [
-            "Los rivales de Mazmorra y Sellado tienen nombres y títulos nuevos que encajan con cualquier retrato: se acabó ver un título femenino sobre un guerrero barbudo o al revés."
+            "Botón \"Omitir Efecto\": al jugar una criatura cuyo efecto al entrar apunta a otra criatura, puedes elegir el objetivo o pulsarlo (en el mismo sitio que \"Continuar\") para que entre sin aplicar el efecto.",
+            "Así nunca estás obligado a dañar o desterrar a una criatura tuya. Los efectos que son el precio de la carta, como el de Neriah, no se pueden omitir."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "No responder a un hechizo del rival ya no cuenta como estar ausente: antes, en partidas con muchos hechizos, podía acortarte los turnos e incluso dar la partida por abandonada."
+            "Ya puedes jugar una criatura cuyo efecto al entrar apunta a otra criatura aunque no haya ninguna a la que apuntar, como el Golem Fragmentohielo con la mesa rival vacía: la criatura entra y el efecto no hace nada. Antes volvía a tu mano."
           ]
         },
         {
           "heading": "Equilibrio",
           "items": [
-            "La IA ya no pierde su turno cuando te obliga a descartar o a elegir algo: espera a que decidas y sigue jugando.",
-            "La IA ya juega los hechizos de varios efectos que piden un objetivo, como Carga Primordial o Rugido de Estampida."
+            "La IA ya juega sus criaturas aunque su efecto al entrar no tenga objetivo o no cumpla su condición (antes se guardaba, por ejemplo, el Golem Fragmentohielo con tu mesa vacía o el Iniciado Sanguinario sin otro Vampiro).",
+            "La IA usa bien las cartas que dañan o devuelven a la mano una criatura propia, como Rito de Flagelación o Pasaje de Resaca, y ya no las cuenta como daño contra ti al decidir sus ataques."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.169",
+      "title": "What's new in 0.0.170",
       "sections": [
         {
-          "heading": "Improvements",
+          "heading": "New",
           "items": [
-            "Dungeon and Sealed rivals have new names and titles that fit any portrait, so a title no longer clashes with the face it's shown on."
+            "\"Skip Effect\" button: when you play a creature whose enter effect targets another creature, you can pick the target or press it (in the same place as \"Continue\") so it enters without applying the effect.",
+            "You're never forced to damage or banish one of your own creatures. Effects that are the card's cost, like Neriah's, can't be skipped."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "Not responding to an opponent's spell no longer counts as being away: in spell-heavy games it could shorten your turns and even end the game as abandoned."
+            "You can now play a creature whose enter effect targets another creature even when there's nothing to target, like Frostshard Golem against an empty board: the creature enters and the effect does nothing. It used to bounce back to your hand."
           ]
         },
         {
           "heading": "Balance",
           "items": [
-            "The AI no longer loses its turn when it makes you discard or choose something: it waits for your decision and keeps playing.",
-            "The AI now plays multi-effect spells that need a target, such as Primordial Charge or Stampede Roar."
+            "The AI now plays its creatures even when their enter effect has no target or its condition isn't met (it used to hold, for example, Frostshard Golem against an empty board or Bloodhall Initiate without another Vampire).",
+            "The AI now uses cards that damage or return one of its own creatures, such as Rite of Flagellation or Undertow Passage, correctly, and no longer counts them as damage against you when deciding to attack."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.170",
+      "date": "2026-09-14",
+      "published_at": "2026-09-14T22:25:43",
+      "es": {
+        "title": "Novedades de la versión 0.0.170",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Botón \"Omitir Efecto\": al jugar una criatura cuyo efecto al entrar apunta a otra criatura, puedes elegir el objetivo o pulsarlo (en el mismo sitio que \"Continuar\") para que entre sin aplicar el efecto.",
+              "Así nunca estás obligado a dañar o desterrar a una criatura tuya. Los efectos que son el precio de la carta, como el de Neriah, no se pueden omitir."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Ya puedes jugar una criatura cuyo efecto al entrar apunta a otra criatura aunque no haya ninguna a la que apuntar, como el Golem Fragmentohielo con la mesa rival vacía: la criatura entra y el efecto no hace nada. Antes volvía a tu mano."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "La IA ya juega sus criaturas aunque su efecto al entrar no tenga objetivo o no cumpla su condición (antes se guardaba, por ejemplo, el Golem Fragmentohielo con tu mesa vacía o el Iniciado Sanguinario sin otro Vampiro).",
+              "La IA usa bien las cartas que dañan o devuelven a la mano una criatura propia, como Rito de Flagelación o Pasaje de Resaca, y ya no las cuenta como daño contra ti al decidir sus ataques."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.170",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "\"Skip Effect\" button: when you play a creature whose enter effect targets another creature, you can pick the target or press it (in the same place as \"Continue\") so it enters without applying the effect.",
+              "You're never forced to damage or banish one of your own creatures. Effects that are the card's cost, like Neriah's, can't be skipped."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "You can now play a creature whose enter effect targets another creature even when there's nothing to target, like Frostshard Golem against an empty board: the creature enters and the effect does nothing. It used to bounce back to your hand."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "The AI now plays its creatures even when their enter effect has no target or its condition isn't met (it used to hold, for example, Frostshard Golem against an empty board or Bloodhall Initiate without another Vampire).",
+              "The AI now uses cards that damage or return one of its own creatures, such as Rite of Flagellation or Undertow Passage, correctly, and no longer counts them as damage against you when deciding to attack."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.169",
       "date": "2026-09-14",
@@ -298,57 +355,6 @@
             "heading": "Fixes",
             "items": [
               "The window to confirm Surrender or Abandon run is centered on screen again: in the previous version it showed up in the top-left corner."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.161",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T02:01:51",
-      "es": {
-        "title": "Novedades de la versión 0.0.161",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Añadir cartas al mazo en el editor ya no congela la lista un momento: cada clic responde al instante y el scroll sigue fluido.",
-              "Las imágenes del menú de modos de juego ya no muestran picos en sus esquinas redondeadas, y todos los títulos caben en una línea.",
-              "Cada aventura tiene ahora su propia portada, en la tienda y en la lista de aventuras.",
-              "Rendirse ahora pide confirmación: un clic despistado ya no te hace perder la partida."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Las criaturas con Acometida que eligen una criatura al atacar ahora te dejan elegirla con la flecha, y antes de que el rival declare sus bloqueos. Antes no te dejaban elegir, o el rival bloqueaba antes de que pudieras hacerlo.",
-              "Una criatura silenciada recupera su texto al salir del campo de batalla: si muere puede usar Renacer desde el cementerio, y si vuelve a tu mano se juega con todas sus habilidades.",
-              "Mazmorra: ya no se cuentan derrotas de combates que no llegaste a jugar, por ejemplo cuando el combate no llegaba a arrancar.",
-              "Mazmorra: si vuelves a entrar en un combate tras una desconexión, al terminar vuelves a tu run y no al menú principal."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.161",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "Adding cards to a deck in the editor no longer freezes the list for a moment: every click responds instantly and scrolling stays smooth.",
-              "The game mode images no longer show jagged edges on their rounded corners, and every title fits on one line.",
-              "Each adventure now has its own cover art, in the shop and in the adventures list.",
-              "Surrender now asks for confirmation, so a stray click no longer costs you the match."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "Creatures with Assault that target a creature when attacking now let you pick it with the arrow, before your opponent declares blockers. Before, they didn't let you choose, or your opponent blocked before you could.",
-              "A silenced creature gets its text back when it leaves the battlefield: if it dies it can use Rebirth from the graveyard, and if it returns to your hand it plays with all its abilities.",
-              "Dungeon: losses from fights you never got to play, for example when a fight failed to start, no longer count.",
-              "Dungeon: if you rejoin a fight after a disconnection, you go back to your run when it ends instead of the main menu."
             ]
           }
         ]

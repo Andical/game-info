@@ -34,57 +34,148 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.163",
-    "date": "2026-09-11",
-    "published_at": "2026-09-11T03:53:45",
+    "version": "0.0.166",
+    "date": "2026-09-14",
+    "published_at": "2026-09-14T07:34:35",
     "es": {
-      "title": "Novedades de la versión 0.0.163",
+      "title": "Novedades de la versión 0.0.166",
       "sections": [
-        {
-          "heading": "Nuevo",
-          "items": [
-            "Nuevo modo: Sellado. Abre 10 sobres, monta un mazo de 45 solo con esas cartas y reta a 7 rivales; tres derrotas y se acaba. Las cartas son tuyas y el botín crece con tus victorias."
-          ]
-        },
         {
           "heading": "Mejoras",
           "items": [
-            "La ventana para confirmar Rendirse o Abandonar la run también se cierra con la tecla Esc."
+            "Al terminar una mazmorra, las cartas del premio se ven dibujadas y en grande, con la vista ampliada al pasar el ratón, igual que en el Sellado."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "La ventana para confirmar Rendirse o Abandonar la run vuelve a salir centrada en pantalla: en la versión anterior aparecía en la esquina superior izquierda."
+            "Si varias cartas te hacen explorar a la vez, ahora se resuelven todas, una detrás de otra: antes solo contaba la última.",
+            "Una criatura que gana Intercepción en mitad del combate ya puede bloquear voladoras, y los refuerzos que lanzas mientras eliges bloqueadores se ven al momento en la carta.",
+            "Mientras ordenas el daño contra varios bloqueadores ya no se pueden lanzar hechizos: se perdía el orden. Lánzalos justo después, en la reacción de combate.",
+            "Si un hechizo no se puede lanzar mientras eliges bloqueadores u ordenas el daño, ya no se borra lo que llevabas elegido.",
+            "Una criatura con Fervor que robas (por ejemplo con Vaskhel) ya puede atacar ese mismo turno si está sin girar.",
+            "Una criatura con Osario u Horda silenciada ya no muere: se queda como un 1/1 que deja de crecer y conserva los refuerzos de otras cartas.",
+            "Textos de cartas revisados: los nombres de las habilidades coinciden con su etiqueta (Abrumar, Impacto Doble, Sanguina, Aurora…), y Bendición de Luz y Relicario Eterno vuelven a decir lo que hacen.",
+            "El botón para volver al Sellado al terminar una partida ya no corta su texto."
+          ]
+        },
+        {
+          "heading": "Equilibrio",
+          "items": [
+            "Sellado: tus rivales también abren 10 sobres y juegan mazos de 45, como tú, y la escalera se ordena para empezar por rivales más asequibles.",
+            "La IA ya no gasta trucos de un turno como Sanguina en criaturas con las que después no ataca.",
+            "Sellado: si pierdes un combate, el siguiente es contra un rival nuevo del mismo nivel, y la dificultad de cada rival se ajusta con los resultados de todos los jugadores.",
+            "La IA ataca con sus criaturas con Arenga cuando no arriesga nada, en vez de dejarlas en casa."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.163",
+      "title": "What's new in 0.0.166",
       "sections": [
-        {
-          "heading": "New",
-          "items": [
-            "New mode: Sealed. Open 10 packs, build a 45-card deck using only what you pulled, and take on 7 rivals; the run ends at your third loss. Every card you open is yours to keep, and you earn loot at the end based on your wins."
-          ]
-        },
         {
           "heading": "Improvements",
           "items": [
-            "The window to confirm Surrender or Abandon run can also be closed with the Esc key."
+            "When you finish a dungeon, the reward cards are shown full size, with the close-up view on hover, just like in Sealed."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "The window to confirm Surrender or Abandon run is centered on screen again: in the previous version it showed up in the top-left corner."
+            "When several cards make you scout at the same time, all of them now resolve, one after another: before, only the last one counted.",
+            "A creature that gains Intercept mid-combat can now block flyers, and buffs you cast while choosing blockers show on the card right away.",
+            "You can no longer cast spells while ordering damage against several blockers, which lost the order. Cast them right after, in the combat reaction.",
+            "If a spell can't be cast while you choose blockers or order damage, what you had chosen is no longer wiped.",
+            "A creature with Fervor that you steal (for example with Vaskhel) can now attack that same turn if it's untapped.",
+            "A silenced creature with Boneyard or Horde no longer dies: it stays as a 1/1 that stops growing and keeps buffs from other cards.",
+            "Card texts reviewed: ability names match their keyword label (Overwhelm, Double Damage, Leech…), and Blessing of Light and Everflame Reliquary once again say what they do.",
+            "The button to return to Sealed after a game no longer cuts off its text."
+          ]
+        },
+        {
+          "heading": "Balance",
+          "items": [
+            "Sealed: your opponents also open 10 packs and play 45-card decks, just like you, and the ladder is arranged to start with easier opponents.",
+            "The AI no longer wastes one-turn tricks like Leech on creatures it then doesn't attack with.",
+            "Sealed: if you lose a fight, the next one is against a new rival of the same level, and each rival's difficulty adjusts to the results of all players.",
+            "The AI now attacks with its Rally creatures when it risks nothing, instead of keeping them home."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.166",
+      "date": "2026-09-14",
+      "published_at": "2026-09-14T07:34:35",
+      "es": {
+        "title": "Novedades de la versión 0.0.166",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Al terminar una mazmorra, las cartas del premio se ven dibujadas y en grande, con la vista ampliada al pasar el ratón, igual que en el Sellado."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Si varias cartas te hacen explorar a la vez, ahora se resuelven todas, una detrás de otra: antes solo contaba la última.",
+              "Una criatura que gana Intercepción en mitad del combate ya puede bloquear voladoras, y los refuerzos que lanzas mientras eliges bloqueadores se ven al momento en la carta.",
+              "Mientras ordenas el daño contra varios bloqueadores ya no se pueden lanzar hechizos: se perdía el orden. Lánzalos justo después, en la reacción de combate.",
+              "Si un hechizo no se puede lanzar mientras eliges bloqueadores u ordenas el daño, ya no se borra lo que llevabas elegido.",
+              "Una criatura con Fervor que robas (por ejemplo con Vaskhel) ya puede atacar ese mismo turno si está sin girar.",
+              "Una criatura con Osario u Horda silenciada ya no muere: se queda como un 1/1 que deja de crecer y conserva los refuerzos de otras cartas.",
+              "Textos de cartas revisados: los nombres de las habilidades coinciden con su etiqueta (Abrumar, Impacto Doble, Sanguina, Aurora…), y Bendición de Luz y Relicario Eterno vuelven a decir lo que hacen.",
+              "El botón para volver al Sellado al terminar una partida ya no corta su texto."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "Sellado: tus rivales también abren 10 sobres y juegan mazos de 45, como tú, y la escalera se ordena para empezar por rivales más asequibles.",
+              "La IA ya no gasta trucos de un turno como Sanguina en criaturas con las que después no ataca.",
+              "Sellado: si pierdes un combate, el siguiente es contra un rival nuevo del mismo nivel, y la dificultad de cada rival se ajusta con los resultados de todos los jugadores.",
+              "La IA ataca con sus criaturas con Arenga cuando no arriesga nada, en vez de dejarlas en casa."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.166",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "When you finish a dungeon, the reward cards are shown full size, with the close-up view on hover, just like in Sealed."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "When several cards make you scout at the same time, all of them now resolve, one after another: before, only the last one counted.",
+              "A creature that gains Intercept mid-combat can now block flyers, and buffs you cast while choosing blockers show on the card right away.",
+              "You can no longer cast spells while ordering damage against several blockers, which lost the order. Cast them right after, in the combat reaction.",
+              "If a spell can't be cast while you choose blockers or order damage, what you had chosen is no longer wiped.",
+              "A creature with Fervor that you steal (for example with Vaskhel) can now attack that same turn if it's untapped.",
+              "A silenced creature with Boneyard or Horde no longer dies: it stays as a 1/1 that stops growing and keeps buffs from other cards.",
+              "Card texts reviewed: ability names match their keyword label (Overwhelm, Double Damage, Leech…), and Blessing of Light and Everflame Reliquary once again say what they do.",
+              "The button to return to Sealed after a game no longer cuts off its text."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "Sealed: your opponents also open 10 packs and play 45-card decks, just like you, and the ladder is arranged to start with easier opponents.",
+              "The AI no longer wastes one-turn tricks like Leech on creatures it then doesn't attack with.",
+              "Sealed: if you lose a fight, the next one is against a new rival of the same level, and each rival's difficulty adjusts to the results of all players.",
+              "The AI now attacks with its Rally creatures when it risks nothing, instead of keeping them home."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.163",
       "date": "2026-09-11",
@@ -276,33 +367,6 @@
               "Adding a friend now tells you what happened: whether it was sent, that the name does not exist, that you are already friends, or that you had already sent them a request. Before, nothing showed up and you could not tell if it had worked.",
               "If you write a private message to someone who has blocked you, the game now tells you it was not delivered. Before, the message just sat in the conversation as if it had arrived.",
               "Inviting a friend to a duel now tells you what went wrong: for example that you have no active deck, that your friend does not have one either, or that the invite is no longer available. Before, nothing showed up."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.152",
-      "date": "2026-09-06",
-      "published_at": "2026-09-06T19:32:41",
-      "es": {
-        "title": "Novedades de la versión 0.0.152",
-        "sections": [
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Las auras que dicen «criatura objetivo» al empezar tu turno —Sigilo de Escarcha, Brasero Ardiente y Vigilia del Alba— ya te dejan elegir a cuál, con la misma flecha del resto. Antes elegía el juego por ti."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.152",
-        "sections": [
-          {
-            "heading": "Fixes",
-            "items": [
-              "Auras that say “target creature” at the start of your turn —Frostbind Sigil, Emberwake Brazier and Vigil of the Dawn— now let you pick which one, with the same arrow as everything else. The game used to choose for you."
             ]
           }
         ]

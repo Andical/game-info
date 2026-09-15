@@ -34,61 +34,96 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.170",
-    "date": "2026-09-14",
-    "published_at": "2026-09-14T22:25:43",
+    "version": "0.0.172",
+    "date": "2026-09-15",
+    "published_at": "2026-09-15T10:25:51",
     "es": {
-      "title": "Novedades de la versión 0.0.170",
+      "title": "Novedades de la versión 0.0.172",
       "sections": [
-        {
-          "heading": "Nuevo",
-          "items": [
-            "Botón \"Omitir Efecto\": al jugar una criatura cuyo efecto al entrar apunta a otra criatura, puedes elegir el objetivo o pulsarlo (en el mismo sitio que \"Continuar\") para que entre sin aplicar el efecto.",
-            "Así nunca estás obligado a dañar o desterrar a una criatura tuya. Los efectos que son el precio de la carta, como el de Neriah, no se pueden omitir."
-          ]
-        },
         {
           "heading": "Correcciones",
           "items": [
-            "Ya puedes jugar una criatura cuyo efecto al entrar apunta a otra criatura aunque no haya ninguna a la que apuntar, como el Golem Fragmentohielo con la mesa rival vacía: la criatura entra y el efecto no hace nada. Antes volvía a tu mano."
+            "El botón de ajustes de la Mazmorra ya se anima al pasar el ratón por encima, como en el resto de pantallas.",
+            "Represalia Solar ya no envía al abismo tu propia criatura: la Barrera va a tu criatura y el destierro a la criatura enemiga que elijas.",
+            "Las cartas que nombran dos objetivos ahora te piden los dos, uno detrás de otro: Pira de Ambición, Oleada Ardiente, Arremetida Flamígera, Negativa de Marea, Andanada de Rayos, Andanada Goblin y Réplica Ardiente. Antes el segundo efecto caía sobre el primer objetivo.",
+            "El texto en inglés de Garra Glacial ya no muestra comillas duplicadas."
           ]
         },
         {
           "heading": "Equilibrio",
           "items": [
-            "La IA ya juega sus criaturas aunque su efecto al entrar no tenga objetivo o no cumpla su condición (antes se guardaba, por ejemplo, el Golem Fragmentohielo con tu mesa vacía o el Iniciado Sanguinario sin otro Vampiro).",
-            "La IA usa bien las cartas que dañan o devuelven a la mano una criatura propia, como Rito de Flagelación o Pasaje de Resaca, y ya no las cuenta como daño contra ti al decidir sus ataques."
+            "Mantícora Arcana ahora tiene Vuelo. Para compensarlo pasa de 4/3 a 3/3 (con Resonancia sigue pegando 4 en los turnos en que lanzas un hechizo)."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.170",
+      "title": "What's new in 0.0.172",
       "sections": [
-        {
-          "heading": "New",
-          "items": [
-            "\"Skip Effect\" button: when you play a creature whose enter effect targets another creature, you can pick the target or press it (in the same place as \"Continue\") so it enters without applying the effect.",
-            "You're never forced to damage or banish one of your own creatures. Effects that are the card's cost, like Neriah's, can't be skipped."
-          ]
-        },
         {
           "heading": "Fixes",
           "items": [
-            "You can now play a creature whose enter effect targets another creature even when there's nothing to target, like Frostshard Golem against an empty board: the creature enters and the effect does nothing. It used to bounce back to your hand."
+            "The Dungeon settings button now animates when you hover over it, like on every other screen.",
+            "Sunlit Reprisal no longer sends your own creature to the abyss: Barrier goes to your creature and the abyss to the enemy creature you choose.",
+            "Cards that name two targets now ask for both, one after the other: Pyre of Ambition, Emberblood Surge, Blazing Onslaught, Tidewall Denial, Firebolt Volley, Warren Volley and Emberflash Riposte. The second effect used to land on the first target.",
+            "Glacial Grip's text no longer shows doubled apostrophes."
           ]
         },
         {
           "heading": "Balance",
           "items": [
-            "The AI now plays its creatures even when their enter effect has no target or its condition isn't met (it used to hold, for example, Frostshard Golem against an empty board or Bloodhall Initiate without another Vampire).",
-            "The AI now uses cards that damage or return one of its own creatures, such as Rite of Flagellation or Undertow Passage, correctly, and no longer counts them as damage against you when deciding to attack."
+            "Arcane Manticore now has Flying. To compensate it goes from 4/3 to 3/3 (with Resonance it still hits for 4 on turns you cast a spell)."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.172",
+      "date": "2026-09-15",
+      "published_at": "2026-09-15T10:25:51",
+      "es": {
+        "title": "Novedades de la versión 0.0.172",
+        "sections": [
+          {
+            "heading": "Correcciones",
+            "items": [
+              "El botón de ajustes de la Mazmorra ya se anima al pasar el ratón por encima, como en el resto de pantallas.",
+              "Represalia Solar ya no envía al abismo tu propia criatura: la Barrera va a tu criatura y el destierro a la criatura enemiga que elijas.",
+              "Las cartas que nombran dos objetivos ahora te piden los dos, uno detrás de otro: Pira de Ambición, Oleada Ardiente, Arremetida Flamígera, Negativa de Marea, Andanada de Rayos, Andanada Goblin y Réplica Ardiente. Antes el segundo efecto caía sobre el primer objetivo.",
+              "El texto en inglés de Garra Glacial ya no muestra comillas duplicadas."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "Mantícora Arcana ahora tiene Vuelo. Para compensarlo pasa de 4/3 a 3/3 (con Resonancia sigue pegando 4 en los turnos en que lanzas un hechizo)."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.172",
+        "sections": [
+          {
+            "heading": "Fixes",
+            "items": [
+              "The Dungeon settings button now animates when you hover over it, like on every other screen.",
+              "Sunlit Reprisal no longer sends your own creature to the abyss: Barrier goes to your creature and the abyss to the enemy creature you choose.",
+              "Cards that name two targets now ask for both, one after the other: Pyre of Ambition, Emberblood Surge, Blazing Onslaught, Tidewall Denial, Firebolt Volley, Warren Volley and Emberflash Riposte. The second effect used to land on the first target.",
+              "Glacial Grip's text no longer shows doubled apostrophes."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "Arcane Manticore now has Flying. To compensate it goes from 4/3 to 3/3 (with Resonance it still hits for 4 on turns you cast a spell)."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.170",
       "date": "2026-09-14",
@@ -304,57 +339,6 @@
               "The AI no longer wastes one-turn tricks like Leech on creatures it then doesn't attack with.",
               "Sealed: if you lose a fight, the next one is against a new rival of the same level, and each rival's difficulty adjusts to the results of all players.",
               "The AI now attacks with its Rally creatures when it risks nothing, instead of keeping them home."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.163",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T03:53:45",
-      "es": {
-        "title": "Novedades de la versión 0.0.163",
-        "sections": [
-          {
-            "heading": "Nuevo",
-            "items": [
-              "Nuevo modo: Sellado. Abre 10 sobres, monta un mazo de 45 solo con esas cartas y reta a 7 rivales; tres derrotas y se acaba. Las cartas son tuyas y el botín crece con tus victorias."
-            ]
-          },
-          {
-            "heading": "Mejoras",
-            "items": [
-              "La ventana para confirmar Rendirse o Abandonar la run también se cierra con la tecla Esc."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "La ventana para confirmar Rendirse o Abandonar la run vuelve a salir centrada en pantalla: en la versión anterior aparecía en la esquina superior izquierda."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.163",
-        "sections": [
-          {
-            "heading": "New",
-            "items": [
-              "New mode: Sealed. Open 10 packs, build a 45-card deck using only what you pulled, and take on 7 rivals; the run ends at your third loss. Every card you open is yours to keep, and you earn loot at the end based on your wins."
-            ]
-          },
-          {
-            "heading": "Improvements",
-            "items": [
-              "The window to confirm Surrender or Abandon run can also be closed with the Esc key."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "The window to confirm Surrender or Abandon run is centered on screen again: in the previous version it showed up in the top-left corner."
             ]
           }
         ]

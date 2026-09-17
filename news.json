@@ -34,51 +34,128 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.172",
-    "date": "2026-09-15",
-    "published_at": "2026-09-15T10:25:51",
+    "version": "0.0.174",
+    "date": "2026-09-17",
+    "published_at": "2026-09-17T17:16:03",
     "es": {
-      "title": "Novedades de la versión 0.0.172",
+      "title": "Novedades de la versión 0.0.174",
       "sections": [
         {
-          "heading": "Correcciones",
+          "heading": "Mejoras",
           "items": [
-            "El botón de ajustes de la Mazmorra ya se anima al pasar el ratón por encima, como en el resto de pantallas.",
-            "Represalia Solar ya no envía al abismo tu propia criatura: la Barrera va a tu criatura y el destierro a la criatura enemiga que elijas.",
-            "Las cartas que nombran dos objetivos ahora te piden los dos, uno detrás de otro: Pira de Ambición, Oleada Ardiente, Arremetida Flamígera, Negativa de Marea, Andanada de Rayos, Andanada Goblin y Réplica Ardiente. Antes el segundo efecto caía sobre el primer objetivo.",
-            "El texto en inglés de Garra Glacial ya no muestra comillas duplicadas."
+            "Los paneles de elegir carta (Buscar, Explorar y elegir criatura del cementerio) tienen un botón «Ver mesa» para mirar el tablero antes de decidir, y muestran el tiempo que te queda.",
+            "La IA ya no ataca contra una criatura con Tormento cuando solo va a perder vida sin conseguir nada, y bloquea con sus propias criaturas con Tormento para castigarte.",
+            "La IA ya no manda sus criaturas pequeñas a morir contra bloqueadores mucho más grandes cuando la mesa está llena: solo ataca con ellas cuando el ataque le sale a cuenta.",
+            "La IA ya no lanza hechizos de daño a todas las criaturas (como Ashen Bargain) cuando matarían más criaturas suyas que tuyas, y con Embergale Sweep y Peakfire Cataclysm protege a la criatura que de verdad moriría."
           ]
         },
         {
-          "heading": "Equilibrio",
+          "heading": "Correcciones",
           "items": [
-            "Mantícora Arcana ahora tiene Vuelo. Para compensarlo pasa de 4/3 a 3/3 (con Resonancia sigue pegando 4 en los turnos en que lanzas un hechizo)."
+            "Vhargas, the Great Hunt, Herdcrown Behemoth, Wildsoul Avatar y Duskfang Whelp ya se refuerzan a sí mismas al entrar en juego cuando se cumple su condición; antes el refuerzo no llegaba a aplicarse.",
+            "El chat global del menú ya no pierde los colores cuando se acumulan muchos mensajes.",
+            "Roots of the Summit y el resto de efectos de inicio de turno que te piden decidir se resuelven antes de robar. Antes la exploración te enseñaba la carta que acababas de robar.",
+            "Chant of the Deep te deja elegir qué criatura agotar cuando se cumple su condición; antes esa parte no llegaba a aplicarse.",
+            "Cuando una criatura con Legado o Tormento te pide elegir objetivo en mitad de un combate, ya puedes elegirlo al terminar la animación; antes tu elección podía perderse y el juego elegía por ti.",
+            "Con una elección pendiente ya no aparece el botón de terminar turno ni se pueden jugar cartas hasta decidir.",
+            "Foretell the Currents, The Oracle's Mirrorpool, Deepcurrent Study, Ilyzara, Fateweaver, First Light y Codex of Drowned Names terminan su efecto después de que explores. Antes robabas (o molías) antes de elegir.",
+            "La ventana de victoria ya no corta las recompensas cuando ganas varias a la vez (oro, experiencia, sobres y cartas), y por fin muestra las gemas y fragmentos que te da subir de nivel.",
+            "Al cambiar de idioma, las cartas que ya estaban en pantalla (como la vista ampliada de una carta) ya no mezclan el nombre en un idioma con las habilidades en otro."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.172",
+      "title": "What's new in 0.0.174",
       "sections": [
         {
-          "heading": "Fixes",
+          "heading": "Improvements",
           "items": [
-            "The Dungeon settings button now animates when you hover over it, like on every other screen.",
-            "Sunlit Reprisal no longer sends your own creature to the abyss: Barrier goes to your creature and the abyss to the enemy creature you choose.",
-            "Cards that name two targets now ask for both, one after the other: Pyre of Ambition, Emberblood Surge, Blazing Onslaught, Tidewall Denial, Firebolt Volley, Warren Volley and Emberflash Riposte. The second effect used to land on the first target.",
-            "Glacial Grip's text no longer shows doubled apostrophes."
+            "Card choice panels (Search, Scout and choosing a creature from your graveyard) now have a “View board” button so you can check the board before deciding, and they show how much time you have left.",
+            "The AI no longer attacks into a creature with Torment when it would only lose life for nothing, and it blocks with its own Torment creatures to punish you.",
+            "The AI no longer sends its small creatures to die against much bigger blockers on crowded boards: it only attacks with them when the attack is worth it.",
+            "The AI no longer casts damage-to-all-creatures spells (like Ashen Bargain) when they would kill more of its creatures than yours, and with Embergale Sweep and Peakfire Cataclysm it protects the creature that would actually die."
           ]
         },
         {
-          "heading": "Balance",
+          "heading": "Fixes",
           "items": [
-            "Arcane Manticore now has Flying. To compensate it goes from 4/3 to 3/3 (with Resonance it still hits for 4 on turns you cast a spell)."
+            "Vhargas, the Great Hunt, Herdcrown Behemoth, Wildsoul Avatar and Duskfang Whelp now buff themselves when they enter play and their condition is met; before, the buff never applied.",
+            "Global chat in the main menu no longer loses its colors after many messages.",
+            "Roots of the Summit and other start-of-turn effects that ask you to decide now resolve before you draw. Before, Scout showed you the card you had just drawn.",
+            "Chant of the Deep now lets you choose which creature to exhaust when its condition is met; before, that part never applied.",
+            "When a creature with Legacy or Torment asks you to choose a target during combat, you can now choose it once the animation ends; before, your choice could be lost and the game picked for you.",
+            "While a choice is pending, the end turn button no longer appears and you can no longer play cards until you decide.",
+            "Foretell the Currents, The Oracle's Mirrorpool, Deepcurrent Study, Ilyzara, Fateweaver, First Light and Codex of Drowned Names now finish their effect after you scout. Before, you drew (or milled) before choosing.",
+            "The victory window no longer cuts off your rewards when you earn several at once (gold, experience, packs and cards), and it now shows the gems and shards you get for leveling up.",
+            "When you change language, cards already on screen (such as a card's enlarged view) no longer mix a name in one language with abilities in another."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.174",
+      "date": "2026-09-17",
+      "published_at": "2026-09-17T17:16:03",
+      "es": {
+        "title": "Novedades de la versión 0.0.174",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Los paneles de elegir carta (Buscar, Explorar y elegir criatura del cementerio) tienen un botón «Ver mesa» para mirar el tablero antes de decidir, y muestran el tiempo que te queda.",
+              "La IA ya no ataca contra una criatura con Tormento cuando solo va a perder vida sin conseguir nada, y bloquea con sus propias criaturas con Tormento para castigarte.",
+              "La IA ya no manda sus criaturas pequeñas a morir contra bloqueadores mucho más grandes cuando la mesa está llena: solo ataca con ellas cuando el ataque le sale a cuenta.",
+              "La IA ya no lanza hechizos de daño a todas las criaturas (como Ashen Bargain) cuando matarían más criaturas suyas que tuyas, y con Embergale Sweep y Peakfire Cataclysm protege a la criatura que de verdad moriría."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Vhargas, the Great Hunt, Herdcrown Behemoth, Wildsoul Avatar y Duskfang Whelp ya se refuerzan a sí mismas al entrar en juego cuando se cumple su condición; antes el refuerzo no llegaba a aplicarse.",
+              "El chat global del menú ya no pierde los colores cuando se acumulan muchos mensajes.",
+              "Roots of the Summit y el resto de efectos de inicio de turno que te piden decidir se resuelven antes de robar. Antes la exploración te enseñaba la carta que acababas de robar.",
+              "Chant of the Deep te deja elegir qué criatura agotar cuando se cumple su condición; antes esa parte no llegaba a aplicarse.",
+              "Cuando una criatura con Legado o Tormento te pide elegir objetivo en mitad de un combate, ya puedes elegirlo al terminar la animación; antes tu elección podía perderse y el juego elegía por ti.",
+              "Con una elección pendiente ya no aparece el botón de terminar turno ni se pueden jugar cartas hasta decidir.",
+              "Foretell the Currents, The Oracle's Mirrorpool, Deepcurrent Study, Ilyzara, Fateweaver, First Light y Codex of Drowned Names terminan su efecto después de que explores. Antes robabas (o molías) antes de elegir.",
+              "La ventana de victoria ya no corta las recompensas cuando ganas varias a la vez (oro, experiencia, sobres y cartas), y por fin muestra las gemas y fragmentos que te da subir de nivel.",
+              "Al cambiar de idioma, las cartas que ya estaban en pantalla (como la vista ampliada de una carta) ya no mezclan el nombre en un idioma con las habilidades en otro."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.174",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "Card choice panels (Search, Scout and choosing a creature from your graveyard) now have a “View board” button so you can check the board before deciding, and they show how much time you have left.",
+              "The AI no longer attacks into a creature with Torment when it would only lose life for nothing, and it blocks with its own Torment creatures to punish you.",
+              "The AI no longer sends its small creatures to die against much bigger blockers on crowded boards: it only attacks with them when the attack is worth it.",
+              "The AI no longer casts damage-to-all-creatures spells (like Ashen Bargain) when they would kill more of its creatures than yours, and with Embergale Sweep and Peakfire Cataclysm it protects the creature that would actually die."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Vhargas, the Great Hunt, Herdcrown Behemoth, Wildsoul Avatar and Duskfang Whelp now buff themselves when they enter play and their condition is met; before, the buff never applied.",
+              "Global chat in the main menu no longer loses its colors after many messages.",
+              "Roots of the Summit and other start-of-turn effects that ask you to decide now resolve before you draw. Before, Scout showed you the card you had just drawn.",
+              "Chant of the Deep now lets you choose which creature to exhaust when its condition is met; before, that part never applied.",
+              "When a creature with Legacy or Torment asks you to choose a target during combat, you can now choose it once the animation ends; before, your choice could be lost and the game picked for you.",
+              "While a choice is pending, the end turn button no longer appears and you can no longer play cards until you decide.",
+              "Foretell the Currents, The Oracle's Mirrorpool, Deepcurrent Study, Ilyzara, Fateweaver, First Light and Codex of Drowned Names now finish their effect after you scout. Before, you drew (or milled) before choosing.",
+              "The victory window no longer cuts off your rewards when you earn several at once (gold, experience, packs and cards), and it now shows the gems and shards you get for leveling up.",
+              "When you change language, cards already on screen (such as a card's enlarged view) no longer mix a name in one language with abilities in another."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.172",
       "date": "2026-09-15",
@@ -268,77 +345,6 @@
             "items": [
               "Silence is now permanent, as in Eternal: a silenced card stays without text in the graveyard and in your hand, so it can no longer use Rebirth.",
               "Dungeon: if you lose a fight, the next one is against a new rival, just like in Sealed."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.166",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T07:34:35",
-      "es": {
-        "title": "Novedades de la versión 0.0.166",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Al terminar una mazmorra, las cartas del premio se ven dibujadas y en grande, con la vista ampliada al pasar el ratón, igual que en el Sellado."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Si varias cartas te hacen explorar a la vez, ahora se resuelven todas, una detrás de otra: antes solo contaba la última.",
-              "Una criatura que gana Intercepción en mitad del combate ya puede bloquear voladoras, y los refuerzos que lanzas mientras eliges bloqueadores se ven al momento en la carta.",
-              "Mientras ordenas el daño contra varios bloqueadores ya no se pueden lanzar hechizos: se perdía el orden. Lánzalos justo después, en la reacción de combate.",
-              "Si un hechizo no se puede lanzar mientras eliges bloqueadores u ordenas el daño, ya no se borra lo que llevabas elegido.",
-              "Una criatura con Fervor que robas (por ejemplo con Vaskhel) ya puede atacar ese mismo turno si está sin girar.",
-              "Una criatura con Osario u Horda silenciada ya no muere: se queda como un 1/1 que deja de crecer y conserva los refuerzos de otras cartas.",
-              "Textos de cartas revisados: los nombres de las habilidades coinciden con su etiqueta (Abrumar, Impacto Doble, Sanguina, Aurora…), y Bendición de Luz y Relicario Eterno vuelven a decir lo que hacen.",
-              "El botón para volver al Sellado al terminar una partida ya no corta su texto."
-            ]
-          },
-          {
-            "heading": "Equilibrio",
-            "items": [
-              "Sellado: tus rivales también abren 10 sobres y juegan mazos de 45, como tú, y la escalera se ordena para empezar por rivales más asequibles.",
-              "La IA ya no gasta trucos de un turno como Sanguina en criaturas con las que después no ataca.",
-              "Sellado: si pierdes un combate, el siguiente es contra un rival nuevo del mismo nivel, y la dificultad de cada rival se ajusta con los resultados de todos los jugadores.",
-              "La IA ataca con sus criaturas con Arenga cuando no arriesga nada, en vez de dejarlas en casa."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.166",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "When you finish a dungeon, the reward cards are shown full size, with the close-up view on hover, just like in Sealed."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "When several cards make you scout at the same time, all of them now resolve, one after another: before, only the last one counted.",
-              "A creature that gains Intercept mid-combat can now block flyers, and buffs you cast while choosing blockers show on the card right away.",
-              "You can no longer cast spells while ordering damage against several blockers, which lost the order. Cast them right after, in the combat reaction.",
-              "If a spell can't be cast while you choose blockers or order damage, what you had chosen is no longer wiped.",
-              "A creature with Fervor that you steal (for example with Vaskhel) can now attack that same turn if it's untapped.",
-              "A silenced creature with Boneyard or Horde no longer dies: it stays as a 1/1 that stops growing and keeps buffs from other cards.",
-              "Card texts reviewed: ability names match their keyword label (Overwhelm, Double Damage, Leech…), and Blessing of Light and Everflame Reliquary once again say what they do.",
-              "The button to return to Sealed after a game no longer cuts off its text."
-            ]
-          },
-          {
-            "heading": "Balance",
-            "items": [
-              "Sealed: your opponents also open 10 packs and play 45-card decks, just like you, and the ladder is arranged to start with easier opponents.",
-              "The AI no longer wastes one-turn tricks like Leech on creatures it then doesn't attack with.",
-              "Sealed: if you lose a fight, the next one is against a new rival of the same level, and each rival's difficulty adjusts to the results of all players.",
-              "The AI now attacks with its Rally creatures when it risks nothing, instead of keeping them home."
             ]
           }
         ]

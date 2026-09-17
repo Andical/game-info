@@ -34,67 +34,96 @@
     ]
   },
   "patch_notes": {
-    "version": "0.0.174",
-    "date": "2026-09-17",
-    "published_at": "2026-09-17T17:16:03",
+    "version": "0.0.180",
+    "date": "2026-09-18",
+    "published_at": "2026-09-18T00:54:31",
     "es": {
-      "title": "Novedades de la versión 0.0.174",
+      "title": "Novedades de la versión 0.0.180",
       "sections": [
         {
           "heading": "Mejoras",
           "items": [
-            "Los paneles de elegir carta (Buscar, Explorar y elegir criatura del cementerio) tienen un botón «Ver mesa» para mirar el tablero antes de decidir, y muestran el tiempo que te queda.",
-            "La IA ya no ataca contra una criatura con Tormento cuando solo va a perder vida sin conseguir nada, y bloquea con sus propias criaturas con Tormento para castigarte.",
-            "La IA ya no manda sus criaturas pequeñas a morir contra bloqueadores mucho más grandes cuando la mesa está llena: solo ataca con ellas cuando el ataque le sale a cuenta.",
-            "La IA ya no lanza hechizos de daño a todas las criaturas (como Ashen Bargain) cuando matarían más criaturas suyas que tuyas, y con Embergale Sweep y Peakfire Cataclysm protege a la criatura que de verdad moriría."
+            "La IA cuenta la vida que recupera bloqueando con criaturas con Robo de vida: con poca vida ya no ataca creyendo que va a morir de todas formas cuando defendiéndose sobreviviría.",
+            "La IA ya no gasta cartas de descarte o de robo de mano (como Whispered Toll) cuando no te queda ninguna carta en la mano."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "Vhargas, the Great Hunt, Herdcrown Behemoth, Wildsoul Avatar y Duskfang Whelp ya se refuerzan a sí mismas al entrar en juego cuando se cumple su condición; antes el refuerzo no llegaba a aplicarse.",
-            "El chat global del menú ya no pierde los colores cuando se acumulan muchos mensajes.",
-            "Roots of the Summit y el resto de efectos de inicio de turno que te piden decidir se resuelven antes de robar. Antes la exploración te enseñaba la carta que acababas de robar.",
-            "Chant of the Deep te deja elegir qué criatura agotar cuando se cumple su condición; antes esa parte no llegaba a aplicarse.",
-            "Cuando una criatura con Legado o Tormento te pide elegir objetivo en mitad de un combate, ya puedes elegirlo al terminar la animación; antes tu elección podía perderse y el juego elegía por ti.",
-            "Con una elección pendiente ya no aparece el botón de terminar turno ni se pueden jugar cartas hasta decidir.",
-            "Foretell the Currents, The Oracle's Mirrorpool, Deepcurrent Study, Ilyzara, Fateweaver, First Light y Codex of Drowned Names terminan su efecto después de que explores. Antes robabas (o molías) antes de elegir.",
-            "La ventana de victoria ya no corta las recompensas cuando ganas varias a la vez (oro, experiencia, sobres y cartas), y por fin muestra las gemas y fragmentos que te da subir de nivel.",
-            "Al cambiar de idioma, las cartas que ya estaban en pantalla (como la vista ampliada de una carta) ya no mezclan el nombre en un idioma con las habilidades en otro."
+            "El límite de 14 cartas en mesa ya cuenta también las auras, así que ni tú ni la IA podéis desbordar el tablero. Lo que ya no cabe (una ficha, una criatura revivida o robada, un aura) simplemente no entra.",
+            "Gravecrow Cultist y las demás cartas con Réquiem ya disparan también cuando la otra criatura muere a la vez que ellas (por ejemplo, las dos en el mismo combate). Antes, según cuál cayera primero, no pasaba nada.",
+            "La Barrera que dan Wardstone Herald, Dawnvow Cleric y Embergale Sweep ya no desaparece al final del turno: aguanta hasta que para un golpe, como dice su texto."
           ]
         }
       ]
     },
     "en": {
-      "title": "What's new in 0.0.174",
+      "title": "What's new in 0.0.180",
       "sections": [
         {
           "heading": "Improvements",
           "items": [
-            "Card choice panels (Search, Scout and choosing a creature from your graveyard) now have a “View board” button so you can check the board before deciding, and they show how much time you have left.",
-            "The AI no longer attacks into a creature with Torment when it would only lose life for nothing, and it blocks with its own Torment creatures to punish you.",
-            "The AI no longer sends its small creatures to die against much bigger blockers on crowded boards: it only attacks with them when the attack is worth it.",
-            "The AI no longer casts damage-to-all-creatures spells (like Ashen Bargain) when they would kill more of its creatures than yours, and with Embergale Sweep and Peakfire Cataclysm it protects the creature that would actually die."
+            "The AI now counts the life it gains by blocking with Lifesteal creatures: at low life it no longer attacks thinking it will die anyway when defending would have kept it alive.",
+            "The AI no longer wastes hand-disruption cards (like Whispered Toll) when you have no cards left in hand."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "Vhargas, the Great Hunt, Herdcrown Behemoth, Wildsoul Avatar and Duskfang Whelp now buff themselves when they enter play and their condition is met; before, the buff never applied.",
-            "Global chat in the main menu no longer loses its colors after many messages.",
-            "Roots of the Summit and other start-of-turn effects that ask you to decide now resolve before you draw. Before, Scout showed you the card you had just drawn.",
-            "Chant of the Deep now lets you choose which creature to exhaust when its condition is met; before, that part never applied.",
-            "When a creature with Legacy or Torment asks you to choose a target during combat, you can now choose it once the animation ends; before, your choice could be lost and the game picked for you.",
-            "While a choice is pending, the end turn button no longer appears and you can no longer play cards until you decide.",
-            "Foretell the Currents, The Oracle's Mirrorpool, Deepcurrent Study, Ilyzara, Fateweaver, First Light and Codex of Drowned Names now finish their effect after you scout. Before, you drew (or milled) before choosing.",
-            "The victory window no longer cuts off your rewards when you earn several at once (gold, experience, packs and cards), and it now shows the gems and shards you get for leveling up.",
-            "When you change language, cards already on screen (such as a card's enlarged view) no longer mix a name in one language with abilities in another."
+            "The 14-card board limit now counts auras too, so neither you nor the AI can overflow the board. Anything that no longer fits (a summoned creature, a revived or stolen creature, an aura) simply doesn't enter play.",
+            "Gravecrow Cultist and other Requiem cards now also trigger when the other creature dies at the same time they do (for example, both in the same combat). Before, depending on which fell first, nothing happened.",
+            "The Barrier granted by Wardstone Herald, Dawnvow Cleric and Embergale Sweep no longer wears off at end of turn: it lasts until it stops a hit, as the card says."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.0.180",
+      "date": "2026-09-18",
+      "published_at": "2026-09-18T00:54:31",
+      "es": {
+        "title": "Novedades de la versión 0.0.180",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "La IA cuenta la vida que recupera bloqueando con criaturas con Robo de vida: con poca vida ya no ataca creyendo que va a morir de todas formas cuando defendiéndose sobreviviría.",
+              "La IA ya no gasta cartas de descarte o de robo de mano (como Whispered Toll) cuando no te queda ninguna carta en la mano."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "El límite de 14 cartas en mesa ya cuenta también las auras, así que ni tú ni la IA podéis desbordar el tablero. Lo que ya no cabe (una ficha, una criatura revivida o robada, un aura) simplemente no entra.",
+              "Gravecrow Cultist y las demás cartas con Réquiem ya disparan también cuando la otra criatura muere a la vez que ellas (por ejemplo, las dos en el mismo combate). Antes, según cuál cayera primero, no pasaba nada.",
+              "La Barrera que dan Wardstone Herald, Dawnvow Cleric y Embergale Sweep ya no desaparece al final del turno: aguanta hasta que para un golpe, como dice su texto."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "What's new in 0.0.180",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "The AI now counts the life it gains by blocking with Lifesteal creatures: at low life it no longer attacks thinking it will die anyway when defending would have kept it alive.",
+              "The AI no longer wastes hand-disruption cards (like Whispered Toll) when you have no cards left in hand."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "The 14-card board limit now counts auras too, so neither you nor the AI can overflow the board. Anything that no longer fits (a summoned creature, a revived or stolen creature, an aura) simply doesn't enter play.",
+              "Gravecrow Cultist and other Requiem cards now also trigger when the other creature dies at the same time they do (for example, both in the same combat). Before, depending on which fell first, nothing happened.",
+              "The Barrier granted by Wardstone Herald, Dawnvow Cleric and Embergale Sweep no longer wears off at end of turn: it lasts until it stops a hit, as the card says."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.174",
       "date": "2026-09-17",
@@ -304,47 +333,6 @@
             "items": [
               "The AI no longer loses its turn when it makes you discard or choose something: it waits for your decision and keeps playing.",
               "The AI now plays multi-effect spells that need a target, such as Primordial Charge or Stampede Roar."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.0.167",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T11:16:03",
-      "es": {
-        "title": "Novedades de la versión 0.0.167",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "El final de una mazmorra se ve como el del Sellado: marcador de victorias y derrotas, botín en grande sin cajas grises, las cartas del premio con su vista ampliada y botones a juego."
-            ]
-          },
-          {
-            "heading": "Equilibrio",
-            "items": [
-              "El silencio ahora es permanente, como en Eternal: una carta silenciada sigue sin texto en el cementerio y en la mano, así que ya no puede usar Renacer.",
-              "Mazmorra: si pierdes un combate, el siguiente es contra un rival nuevo, igual que en el Sellado."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "What's new in 0.0.167",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "The end of a dungeon now looks like Sealed's: a wins and losses scoreboard, full-size loot without grey boxes, the reward cards with their close-up view, and matching buttons."
-            ]
-          },
-          {
-            "heading": "Balance",
-            "items": [
-              "Silence is now permanent, as in Eternal: a silenced card stays without text in the graveyard and in your hand, so it can no longer use Rebirth.",
-              "Dungeon: if you lose a fight, the next one is against a new rival, just like in Sealed."
             ]
           }
         ]

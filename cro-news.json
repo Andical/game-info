@@ -25,33 +25,125 @@
     ]
   },
   "patch_notes": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "date": "2026-09-21",
     "es": {
-      "title": "Notas de la version 0.1.0",
-      "items": [
-        "Nueva pantalla de ajustes: graficos, sonido e idioma, y se recuerdan entre sesiones.",
-        "Casilla para recordar tu nombre de usuario al entrar.",
-        "Panel de noticias y consejos en la pantalla de inicio de sesion.",
-        "Interfaz rediseñada para pantallas grandes (2K y 4K).",
-        "Ya se puede jugar en navegador y como actividad de Discord.",
-        "Nuevo launcher con actualizaciones automaticas: solo descarga lo que ha cambiado.",
-        "Instalador para Windows y paquete para Linux.",
-        "Mensajes claros cuando el servidor no responde, en vez de codigos de error."
+      "title": "Notas de la version 0.1.1",
+      "sections": [
+        {
+          "heading": "Mejoras",
+          "items": [
+            "Tu sesión se mantiene mientras juegas: ya no hay que volver a entrar al rato.",
+            "Si marcas «recordarme», entras directo la próxima vez que abras el juego."
+          ]
+        },
+        {
+          "heading": "Correcciones",
+          "items": [
+            "Arreglado: la lista de personajes fallaba nada más entrar y no se veía ningún campeón."
+          ]
+        }
       ]
     },
     "en": {
-      "title": "Patch notes 0.1.0",
-      "items": [
-        "New settings screen: graphics, sound and language, remembered between sessions.",
-        "Checkbox to remember your username when logging in.",
-        "News and tips panel on the login screen.",
-        "Interface redesigned for big screens (2K and 4K).",
-        "You can now play in the browser and as a Discord activity.",
-        "New launcher with automatic updates: it only downloads what changed.",
-        "Windows installer and Linux package.",
-        "Clear messages when the server does not respond, instead of error codes."
+      "title": "Patch notes 0.1.1",
+      "sections": [
+        {
+          "heading": "Improvements",
+          "items": [
+            "Your session now lasts while you play: no more logging in again after a while.",
+            "Tick \"remember me\" and you go straight in next time you open the game."
+          ]
+        },
+        {
+          "heading": "Fixes",
+          "items": [
+            "Fixed: the champion list failed right after logging in and no champions were shown."
+          ]
+        }
       ]
     }
-  }
+  },
+  "patch_notes_history": [
+    {
+      "version": "0.1.1",
+      "date": "2026-09-21",
+      "es": {
+        "title": "Notas de la version 0.1.1",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Tu sesión se mantiene mientras juegas: ya no hay que volver a entrar al rato.",
+              "Si marcas «recordarme», entras directo la próxima vez que abras el juego."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Arreglado: la lista de personajes fallaba nada más entrar y no se veía ningún campeón."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.1",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "Your session now lasts while you play: no more logging in again after a while.",
+              "Tick \"remember me\" and you go straight in next time you open the game."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Fixed: the champion list failed right after logging in and no champions were shown."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-09-21",
+      "es": {
+        "title": "Notas de la version 0.1.0",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Nueva pantalla de ajustes: graficos, sonido e idioma, y se recuerdan entre sesiones.",
+              "Casilla para recordar tu nombre de usuario al entrar.",
+              "Panel de noticias y consejos en la pantalla de inicio de sesion.",
+              "Interfaz rediseñada para pantallas grandes (2K y 4K).",
+              "Ya se puede jugar en navegador y como actividad de Discord.",
+              "Nuevo launcher con actualizaciones automaticas: solo descarga lo que ha cambiado.",
+              "Instalador para Windows y paquete para Linux.",
+              "Mensajes claros cuando el servidor no responde, en vez de codigos de error."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.0",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "New settings screen: graphics, sound and language, remembered between sessions.",
+              "Checkbox to remember your username when logging in.",
+              "News and tips panel on the login screen.",
+              "Interface redesigned for big screens (2K and 4K).",
+              "You can now play in the browser and as a Discord activity.",
+              "New launcher with automatic updates: it only downloads what changed.",
+              "Windows installer and Linux package.",
+              "Clear messages when the server does not respond, instead of error codes."
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

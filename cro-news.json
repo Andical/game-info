@@ -1,0 +1,57 @@
+{
+  "_comment": "Noticias de Crypt Raiders Online. Las leen el LOGIN del juego y el LAUNCHER. Editar aqui = cambiar lo que ven los jugadores sin publicar version nueva. El juego lleva una copia de respaldo en Godot-Client/data/news.json por si no hay internet. SIN EMOJIS: las fuentes del juego no los tienen y salen como cajitas.",
+  "es": {
+    "title": "Bienvenido a Crypt Raiders Online",
+    "body": "Las criptas han despertado. Reúne a tu grupo, baja a la oscuridad y saquea todo lo que puedas… si consigues salir.\n\nAquí no hay red de seguridad: si tu personaje cae, pierde TODO su equipo. Cada expedición es una apuesta entre seguir bajando o extraerte con el botín en las manos.\n\n La Taberna es tu refugio: fabrica, comercia y prepara la siguiente incursión.\n\n Únete a nuestro Discord para enterarte de las pruebas cerradas y las novedades antes que nadie."
+  },
+  "en": {
+    "title": "Welcome to Crypt Raiders Online",
+    "body": "The crypts have awakened. Gather your party, descend into the dark and loot everything you can… if you make it out.\n\nThere is no safety net here: if your character falls, they lose ALL their gear. Every run is a gamble between pushing deeper and extracting with the loot in your hands.\n\n The Tavern is your refuge: craft, trade and prepare the next raid.\n\n Join our Discord to hear about closed tests and news before anyone else."
+  },
+  "tips": {
+    "es": [
+      "» Si mueres en la cripta lo pierdes todo. Extraerte con poco botín siempre es mejor que morir con mucho.",
+      "» El mapa de la cripta se ve entero antes de entrar: planea la ruta según lo que necesites.",
+      "» Una hoguera cura, pero gastar el turno ahí también deja avanzar a la niebla.",
+      "» El baúl de la taberna es compartido entre tus personajes: guarda allí lo que no quieras arriesgar.",
+      "» Antes de bajar, revisa el equipo: lo que lleves puesto es lo que puedes perder."
+    ],
+    "en": [
+      "» If you die in the crypt you lose everything. Extracting with little loot always beats dying with a lot.",
+      "» You can see the whole crypt map before entering: plan your route around what you need.",
+      "» A campfire heals you, but spending the turn there also lets the fog creep closer.",
+      "» The tavern stash is shared between your characters: keep there whatever you don't want to risk.",
+      "» Before you descend, check your gear: what you wear is what you can lose."
+    ]
+  },
+  "patch_notes": {
+    "version": "0.1.0",
+    "date": "2026-09-21",
+    "es": {
+      "title": "Notas de la version 0.1.0",
+      "items": [
+        "Nueva pantalla de ajustes: graficos, sonido e idioma, y se recuerdan entre sesiones.",
+        "Casilla para recordar tu nombre de usuario al entrar.",
+        "Panel de noticias y consejos en la pantalla de inicio de sesion.",
+        "Interfaz rediseñada para pantallas grandes (2K y 4K).",
+        "Ya se puede jugar en navegador y como actividad de Discord.",
+        "Nuevo launcher con actualizaciones automaticas: solo descarga lo que ha cambiado.",
+        "Instalador para Windows y paquete para Linux.",
+        "Mensajes claros cuando el servidor no responde, en vez de codigos de error."
+      ]
+    },
+    "en": {
+      "title": "Patch notes 0.1.0",
+      "items": [
+        "New settings screen: graphics, sound and language, remembered between sessions.",
+        "Checkbox to remember your username when logging in.",
+        "News and tips panel on the login screen.",
+        "Interface redesigned for big screens (2K and 4K).",
+        "You can now play in the browser and as a Discord activity.",
+        "New launcher with automatic updates: it only downloads what changed.",
+        "Windows installer and Linux package.",
+        "Clear messages when the server does not respond, instead of error codes."
+      ]
+    }
+  }
+}

@@ -25,46 +25,58 @@
     ]
   },
   "patch_notes": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "date": "2026-09-21",
     "es": {
-      "title": "Notas de la version 0.1.1",
+      "title": "Notas de la version 0.1.2",
       "sections": [
         {
           "heading": "Mejoras",
           "items": [
-            "Tu sesión se mantiene mientras juegas: ya no hay que volver a entrar al rato.",
-            "Si marcas «recordarme», entras directo la próxima vez que abras el juego."
-          ]
-        },
-        {
-          "heading": "Correcciones",
-          "items": [
-            "Arreglado: la lista de personajes fallaba nada más entrar y no se veía ningún campeón."
+            "El launcher enseña ahora las novedades de cada versión, no solo las noticias del juego."
           ]
         }
       ]
     },
     "en": {
-      "title": "Patch notes 0.1.1",
+      "title": "Patch notes 0.1.2",
       "sections": [
         {
           "heading": "Improvements",
           "items": [
-            "Your session now lasts while you play: no more logging in again after a while.",
-            "Tick \"remember me\" and you go straight in next time you open the game."
-          ]
-        },
-        {
-          "heading": "Fixes",
-          "items": [
-            "Fixed: the champion list failed right after logging in and no champions were shown."
+            "The launcher now shows what changed in each version, not just the game news."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.1.2",
+      "date": "2026-09-21",
+      "es": {
+        "title": "Notas de la version 0.1.2",
+        "sections": [
+          {
+            "heading": "Mejoras",
+            "items": [
+              "El launcher enseña ahora las novedades de cada versión, no solo las noticias del juego."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.2",
+        "sections": [
+          {
+            "heading": "Improvements",
+            "items": [
+              "The launcher now shows what changed in each version, not just the game news."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.1",
       "date": "2026-09-21",

@@ -25,32 +25,86 @@
     ]
   },
   "patch_notes": {
-    "version": "0.1.2",
-    "date": "2026-09-21",
+    "version": "0.1.7",
+    "date": "2026-09-22",
     "es": {
-      "title": "Notas de la version 0.1.2",
+      "title": "Notas de la version 0.1.7",
       "sections": [
         {
-          "heading": "Mejoras",
+          "heading": "Nuevo",
           "items": [
-            "El launcher enseña ahora las novedades de cada versión, no solo las noticias del juego."
+            "Cinco razas (humano, enano, elfo, piel verde y estirpe de sangre) y seis clases: matador, caballero, montaraz, pícaro, hechicero y sacerdote de guerra.",
+            "Nueva pantalla de creación: eliges raza y clase y ves al momento tus atributos, el rasgo de tu sangre y con qué armas y armaduras peleas mejor."
+          ]
+        },
+        {
+          "heading": "Correcciones",
+          "items": [
+            "Arreglado: parte de los textos de la pantalla de creación se quedaban en inglés al cambiar de idioma."
           ]
         }
       ]
     },
     "en": {
-      "title": "Patch notes 0.1.2",
+      "title": "Patch notes 0.1.7",
       "sections": [
         {
-          "heading": "Improvements",
+          "heading": "New",
           "items": [
-            "The launcher now shows what changed in each version, not just the game news."
+            "Five races (human, dwarf, elf, greenskin and bloodline) and six classes: slayer, knight, ranger, rogue, sorcerer and warrior priest.",
+            "New creation screen: pick a race and a class and see your attributes, your bloodline trait and the weapons and armour you fight best with, right away."
+          ]
+        },
+        {
+          "heading": "Fixes",
+          "items": [
+            "Fixed: some texts on the creation screen stayed in English after switching language."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.1.7",
+      "date": "2026-09-22",
+      "es": {
+        "title": "Notas de la version 0.1.7",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Cinco razas (humano, enano, elfo, piel verde y estirpe de sangre) y seis clases: matador, caballero, montaraz, pícaro, hechicero y sacerdote de guerra.",
+              "Nueva pantalla de creación: eliges raza y clase y ves al momento tus atributos, el rasgo de tu sangre y con qué armas y armaduras peleas mejor."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Arreglado: parte de los textos de la pantalla de creación se quedaban en inglés al cambiar de idioma."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.7",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "Five races (human, dwarf, elf, greenskin and bloodline) and six classes: slayer, knight, ranger, rogue, sorcerer and warrior priest.",
+              "New creation screen: pick a race and a class and see your attributes, your bloodline trait and the weapons and armour you fight best with, right away."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Fixed: some texts on the creation screen stayed in English after switching language."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.2",
       "date": "2026-09-21",

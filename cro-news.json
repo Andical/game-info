@@ -25,46 +25,342 @@
     ]
   },
   "patch_notes": {
-    "version": "0.1.7",
-    "date": "2026-09-22",
+    "version": "0.1.16",
+    "date": "2026-09-30",
     "es": {
-      "title": "Notas de la version 0.1.7",
+      "title": "Notas de la version 0.1.16",
       "sections": [
         {
           "heading": "Nuevo",
           "items": [
-            "Cinco razas (humano, enano, elfo, piel verde y estirpe de sangre) y seis clases: matador, caballero, montaraz, pícaro, hechicero y sacerdote de guerra.",
-            "Nueva pantalla de creación: eliges raza y clase y ves al momento tus atributos, el rasgo de tu sangre y con qué armas y armaduras peleas mejor."
+            "Nuevo sistema de objetos: rarezas, propiedades con su rango y nombres propios. Los encuentras en los restos de los enemigos, en cofres y en cámaras.",
+            "Inventario completo durante la expedición: equipo, bolsa y hoja del personaje. Arrastra, ordena, bebe pociones y tira lo que no quieras.",
+            "El equipo cuenta en combate: tu arma decide tu técnica y suma su daño, y tu armadura te protege de verdad.",
+            "Cada clase juega distinto con su mecánica propia, y los rasgos de raza ya funcionan en combate.",
+            "Las salas que no son combates tienen su escena: campamentos, santuarios, tesoros, mercaderes y encuentros con decisiones que se resuelven a los dados.",
+            "La taberna cobra vida: Aldren vende equipo, Mara vende pociones, Garrick compra lo que ya no quieres y el Hermano Odran te devuelve, pagando, lo que perdiste al morir (hasta tu siguiente expedición).",
+            "Baúl compartido entre todos tus personajes: cuatro pestañas para guardar el botín y pasárselo de un héroe a otro, y hasta cuatro más que se compran con oro (botón «+»). Suelta un objeto encima de otra pestaña para guardarlo allí.",
+            "Experiencia y niveles: la ganas al vencer combates, superar pruebas arriesgadas y bajar más hondo, y más aún si sales vivo con lo que encontraste. El nivel no te hace más fuerte: tu poder está en tu equipo.",
+            "Si se corta la conexión o cierras el juego a mitad de expedición, al volver puedes continuarla o abandonarla.",
+            "Registro de combate con cada golpe, crítico y estado (tecla L).",
+            "En la mesa del Cartógrafo ya se abren regiones nuevas con oro: se pagan una vez y quedan abiertas para todos tus personajes.",
+            "Gear score: lo que vale tu equipo puesto, en tu ficha, en la ventana de equipo y en la hoja del personaje. La mesa del Cartógrafo te dice el recomendado de cada profundidad (orienta, no te impide entrar).",
+            "Organiza tu baúl: clic derecho en una pestaña para ponerle nombre, color e icono, o moverla de sitio con todo lo que lleva.",
+            "Aldren, el Maestro de Cuartel, te repone gratis el equipo de salida que te falte: nadie se queda desnudo.",
+            "Aldren tiene ahora pestañas: armas y armaduras básicas para todas las clases, siempre a la venta, y su surtido, que cambia tras cada expedición y trae equipo un paso por delante del básico.",
+            "Vendas y tónicos: las vendas curan fuera de combate sin intoxicarte y los tónicos te quitan la toxicidad. Los vende Mara y te los dan algunas escenas (el botiquín de los cazadores, el buhonero, las hierbas del camino).",
+            "Doble empuñadura: el matador y el pícaro pueden llevar un arma de una mano en cada mano. La segunda suma la mitad de su daño y te da su técnica; con dos de la misma familia, la nueva «Doble tajo».",
+            "Chat en la taberna: habla con todos o susúrrale a alguien con /w y su nombre (y /r para contestar al último). Pulsa Intro para escribir, y pulsa un nombre para susurrarle, añadirlo a tus amigos o bloquearlo.",
+            "Amigos: añade a otros por su nombre de cuenta y acepta sus peticiones; ves quién está conectado, si está en la taberna o en una expedición, y cuántos saqueadores hay en línea. Te avisamos cuando un amigo se conecta.",
+            "Bloquear: quien bloquees desaparece de tu chat y ya no puede susurrarte ni pedirte amistad."
+          ]
+        },
+        {
+          "heading": "Mejoras",
+          "items": [
+            "Al volver de una expedición recuperas toda la vida.",
+            "Las cartas de habilidad enseñan el daño que harías a ese enemigo, con su rango.",
+            "Escape cierra las ventanas abiertas (tiendas, baúl, inventario) antes de abrir los ajustes.",
+            "La ventana de las salas ya no queda tapada por la bolsa ni el equipo, y el botín espera a que termines de leerla.",
+            "Al bajar de profundidad se anuncia la nueva, y el portal rojo explica cómo se usa.",
+            "Las descripciones del mapa explican de verdad qué pasa en cada sala.",
+            "La gente de la taberna tiene su columna bajo tu ficha: un clic abre a cada uno, y el que tienes abierto se marca.",
+            "Tras vencer al guardián de cada profundidad eliges: portal rojo para bajar o portal azul para salir con el botín. Los botones dicen exactamente lo que hacen, y el de arriba se llama «Abandonar expedición» (abandonar hace perderlo todo).",
+            "Las ventanas se pueden arrastrar por su título y se quedan donde las dejas (también al volver a abrir el juego). Doble clic en el título la devuelve a su sitio, y en Ajustes, pestaña General, se recolocan todas.",
+            "La ventana de las salas sale centrada y ya no se corta por abajo: si no cabe, su contenido se desplaza.",
+            "En la taberna, abrir el inventario ya no esconde el grupo ni el chat, y tienes los botones de personaje, equipo y bolsa abajo a la derecha, como en la cripta.",
+            "Con la bolsa llena ya puedes cambiar lo que llevas puesto por algo de los restos: lo que te quitas se queda donde estaba lo nuevo.",
+            "La carta de una habilidad sin usos lo dice («Sin usos en este combate», «No te quedan pociones»).",
+            "Lo que te va a llegar del golpe enemigo enseña al lado tu Guardia: gastar dados en habilidades te quita Guardia, no hace que el enemigo pegue más.",
+            "Los objetos dicen directamente cuánto te paga Garrick por ellos.",
+            "Vender y comprar varias cosas es mucho más rápido: echa a la cesta de Garrick todo lo que quieras vender (clic derecho o soltándolo en su mostrador) y véndelo de una vez; con Aldren y el Custodio, llena el carrito y confirma una sola vez.",
+            "Si una ventana tapa el chat, los susurros que te llegan salen también arriba: no se te escapa ninguno.",
+            "La tienda de Aldren, ordenada: armas por tipo y armaduras por peso, con las piezas de la cabeza a los pies y un botón para llevarte el conjunto entero.",
+            "Lo nuevo del surtido de Aldren sale marcado en su categoría, y de salida solo ves lo que usa tu clase.",
+            "Los botones de comprar, de vender a Garrick y de ordenar el baúl están siempre a la vista, al pie de su ventana: ya no hay que bajar hasta el final.",
+            "En la mesa del Cartógrafo, la afinidad de botín y la descripción de cada región se leen mejor."
           ]
         },
         {
           "heading": "Correcciones",
           "items": [
-            "Arreglado: parte de los textos de la pantalla de creación se quedaban en inglés al cambiar de idioma."
+            "Arreglado: la descripción de un objeto podía crecer hasta tapar toda la pantalla.",
+            "Arreglado: el texto de algunas cartas de habilidad se salía de la carta.",
+            "Arreglado: el matador enano miraba hacia el lado contrario en combate.",
+            "Arreglado: la lista de personajes daba error si el servidor se estaba actualizando; ahora lo reintenta sola.",
+            "Arreglado: esquivar un golpe ya no te deja sangrando, envenenado o expuesto.",
+            "Arreglado: la hoja del personaje en la taberna enseñaba la vida sin el equipo y podía tapar la barra de abajo.",
+            "Arreglado: algunas fichas de las cartas de habilidad se salían de la carta.",
+            "Arreglado: el equipo de salida se podía guardar en el baúl y multiplicar borrando y creando personajes. Ahora es de su personaje y no entra en el baúl.",
+            "Arreglado: las ventanas de las escenas salían descentradas, con un hueco vacío, y a veces se salían por abajo; y el contenido de las ventanas se quedaba pegado a la izquierda.",
+            "Arreglado: el color de una pestaña del baúl apenas se notaba; ahora se tiñe entera, y al editarla ves el cambio al momento.",
+            "Arreglado: Aldren podía repetir el mismo objeto en su surtido.",
+            "Arreglado: tras una hora de juego, la taberna y la cola podían dejar de reconocer al héroe que habías elegido."
+          ]
+        },
+        {
+          "heading": "Equilibrio",
+          "items": [
+            "Todo combate ganado suelta al menos un objeto: antes, muchos solo daban oro.",
+            "Cualquier ruta de cada profundidad tiene combates suficientes para llegar al guardián con botín.",
+            "La Guardia se acumula, y las pociones intoxican: cuantas más bebes, menos curan.",
+            "El explorador enano empieza con ballesta en vez de arco."
           ]
         }
       ]
     },
     "en": {
-      "title": "Patch notes 0.1.7",
+      "title": "Patch notes 0.1.16",
       "sections": [
         {
           "heading": "New",
           "items": [
-            "Five races (human, dwarf, elf, greenskin and bloodline) and six classes: slayer, knight, ranger, rogue, sorcerer and warrior priest.",
-            "New creation screen: pick a race and a class and see your attributes, your bloodline trait and the weapons and armour you fight best with, right away."
+            "New item system: rarities, properties with their ranges and proper names. You find items on fallen enemies, in chests and in vaults.",
+            "A full inventory during expeditions: equipment, bag and character sheet. Drag, sort, drink potions and throw away what you do not want.",
+            "Your gear matters in combat: your weapon decides your technique and adds its damage, and your armour really protects you.",
+            "Every class plays differently with its own mechanic, and racial traits now work in combat.",
+            "Rooms that are not fights now have their own scene: camps, shrines, treasure, merchants and encounters with choices settled by the dice.",
+            "The tavern comes alive: Aldren sells gear, Mara sells potions, Garrick buys what you no longer need and Brother Odran gives back, for a price, what you lost when you died (until your next expedition).",
+            "A stash shared by all your characters: four tabs to store your loot and pass it from one hero to another, and up to four more you can buy with gold (the «+» button). Drop an item on another tab to store it there.",
+            "Experience and levels: earn it by winning fights, passing risky challenges and going deeper, and even more if you make it out alive with what you found. Levels do not make you stronger: your power is your gear.",
+            "If the connection drops or you close the game mid-expedition, when you come back you can resume it or abandon it.",
+            "Combat log with every hit, critical and status (L key).",
+            "At the Cartographer's table you can now open new regions with gold: you pay once and they stay open for all your characters.",
+            "Gear score: what your equipped gear is worth, on your card, in the equipment window and on the character sheet. The Cartographer's table shows the recommended score for each depth (it guides you, it never stops you).",
+            "Organise your stash: right-click a tab to name it, give it a colour and an icon, or move it with everything inside.",
+            "Aldren, the Quartermaster, gives you back any missing starting gear for free: nobody is left naked.",
+            "Aldren now has tabs: basic weapons and armour for every class, always for sale, and his stock, which changes after every expedition and brings gear a step ahead of the basics.",
+            "Bandages and tonics: bandages heal outside combat without toxicity and tonics clear your toxicity. Mara sells them, and some scenes give them (the hunters' medicine kit, the peddler, the wayside herbs).",
+            "Dual wield: the slayer and the rogue can hold a one-handed weapon in each hand. The second one adds half its damage and gives you its technique; with two of the same kind, the new Twin Strike.",
+            "Tavern chat: talk to everyone or whisper to someone with /w and their name (and /r to answer the last one). Press Enter to write, and click a name to whisper to them, add them as a friend or block them.",
+            "Friends: add others by their account name and accept their requests; see who is online, whether they are in the tavern or on an expedition, and how many raiders are online. You are told when a friend comes online.",
+            "Blocking: whoever you block disappears from your chat and can no longer whisper to you or ask to be your friend."
+          ]
+        },
+        {
+          "heading": "Improvements",
+          "items": [
+            "You come back from an expedition at full health.",
+            "Skill cards show the damage you would deal to that enemy, as a range.",
+            "Escape closes open windows (shops, stash, inventory) before opening the settings.",
+            "Room windows are no longer covered by the bag or equipment, and loot waits until you finish reading them.",
+            "Going deeper announces the new depth, and the red portal explains how to use it.",
+            "Map descriptions now explain what really happens in each room.",
+            "The tavern folk have their own column under your character card: one click opens each of them, and the one you have open is highlighted.",
+            "After beating each depth's guardian you choose: the red portal to go deeper or the blue portal to leave with your loot. The buttons say exactly what they do, and the top one is now called «Abandon expedition» (abandoning loses everything).",
+            "Windows can be dragged by their title and stay where you leave them (also after restarting the game). Double-click the title to put one back, and the General tab of the Settings puts them all back.",
+            "The room window is centred and no longer cut off at the bottom: if it does not fit, its content scrolls.",
+            "In the tavern, opening the inventory no longer hides the party or the chat, and the character, equipment and bag buttons are at the bottom right, like in the crypt.",
+            "With a full bag you can now swap what you wear for something in the remains: what you take off stays where the new item was.",
+            "A skill card with no uses left says so («No uses left in this fight», «No potions left»).",
+            "The damage the enemy's blow will deal now shows your Guard next to it: spending dice on skills lowers your Guard, the enemy does not hit harder.",
+            "Items now say directly how much Garrick pays for them.",
+            "Selling and buying several things is much faster: put everything you want to sell in Garrick's basket (right-click or drop it on his counter) and sell it all at once; with Aldren and the Custodian, fill the cart and confirm only once.",
+            "If a window covers the chat, the whispers you receive also show at the top: you will not miss any.",
+            "Aldren's shop, sorted: weapons by kind and armour by weight, with the pieces from head to feet and a button to take the whole set.",
+            "What is new in Aldren's stock is marked in its category, and by default you only see what your class uses.",
+            "The buttons to buy, to sell to Garrick and to sort the stash are always in sight, at the foot of their window: no more scrolling to the end.",
+            "At the Cartographer's table, the loot affinity and the description of each region are easier to read."
           ]
         },
         {
           "heading": "Fixes",
           "items": [
-            "Fixed: some texts on the creation screen stayed in English after switching language."
+            "Fixed: an item's description could grow until it covered the whole screen.",
+            "Fixed: the text of some skill cards spilled out of the card.",
+            "Fixed: the dwarf slayer faced the wrong way in combat.",
+            "Fixed: the character list failed while the server was updating; now it retries on its own.",
+            "Fixed: dodging a blow no longer leaves you bleeding, poisoned or exposed.",
+            "Fixed: the character sheet in the tavern showed your health without your gear and could cover the bottom bar.",
+            "Fixed: some chips on the skill cards spilled out of the card.",
+            "Fixed: starting gear could be stored in the stash and multiplied by deleting and creating characters. It now belongs to its character and cannot go into the stash.",
+            "Fixed: scene windows were off-centre, with empty space, and sometimes went off the bottom of the screen; and window contents stuck to the left.",
+            "Fixed: a stash tab's colour was barely visible; now the whole tab is tinted, and you see the change as you edit it.",
+            "Fixed: Aldren could repeat the same item in his stock.",
+            "Fixed: after an hour of play, the tavern and the queue could stop recognising the hero you had chosen."
+          ]
+        },
+        {
+          "heading": "Balance",
+          "items": [
+            "Every fight you win drops at least one item: before, many only gave gold.",
+            "Every route through each depth has enough fights to reach the guardian with some loot.",
+            "Guard stacks up, and potions build toxicity: the more you drink, the less they heal.",
+            "The dwarf explorer now starts with a crossbow instead of a bow."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.1.16",
+      "date": "2026-09-30",
+      "es": {
+        "title": "Notas de la version 0.1.16",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Nuevo sistema de objetos: rarezas, propiedades con su rango y nombres propios. Los encuentras en los restos de los enemigos, en cofres y en cámaras.",
+              "Inventario completo durante la expedición: equipo, bolsa y hoja del personaje. Arrastra, ordena, bebe pociones y tira lo que no quieras.",
+              "El equipo cuenta en combate: tu arma decide tu técnica y suma su daño, y tu armadura te protege de verdad.",
+              "Cada clase juega distinto con su mecánica propia, y los rasgos de raza ya funcionan en combate.",
+              "Las salas que no son combates tienen su escena: campamentos, santuarios, tesoros, mercaderes y encuentros con decisiones que se resuelven a los dados.",
+              "La taberna cobra vida: Aldren vende equipo, Mara vende pociones, Garrick compra lo que ya no quieres y el Hermano Odran te devuelve, pagando, lo que perdiste al morir (hasta tu siguiente expedición).",
+              "Baúl compartido entre todos tus personajes: cuatro pestañas para guardar el botín y pasárselo de un héroe a otro, y hasta cuatro más que se compran con oro (botón «+»). Suelta un objeto encima de otra pestaña para guardarlo allí.",
+              "Experiencia y niveles: la ganas al vencer combates, superar pruebas arriesgadas y bajar más hondo, y más aún si sales vivo con lo que encontraste. El nivel no te hace más fuerte: tu poder está en tu equipo.",
+              "Si se corta la conexión o cierras el juego a mitad de expedición, al volver puedes continuarla o abandonarla.",
+              "Registro de combate con cada golpe, crítico y estado (tecla L).",
+              "En la mesa del Cartógrafo ya se abren regiones nuevas con oro: se pagan una vez y quedan abiertas para todos tus personajes.",
+              "Gear score: lo que vale tu equipo puesto, en tu ficha, en la ventana de equipo y en la hoja del personaje. La mesa del Cartógrafo te dice el recomendado de cada profundidad (orienta, no te impide entrar).",
+              "Organiza tu baúl: clic derecho en una pestaña para ponerle nombre, color e icono, o moverla de sitio con todo lo que lleva.",
+              "Aldren, el Maestro de Cuartel, te repone gratis el equipo de salida que te falte: nadie se queda desnudo.",
+              "Aldren tiene ahora pestañas: armas y armaduras básicas para todas las clases, siempre a la venta, y su surtido, que cambia tras cada expedición y trae equipo un paso por delante del básico.",
+              "Vendas y tónicos: las vendas curan fuera de combate sin intoxicarte y los tónicos te quitan la toxicidad. Los vende Mara y te los dan algunas escenas (el botiquín de los cazadores, el buhonero, las hierbas del camino).",
+              "Doble empuñadura: el matador y el pícaro pueden llevar un arma de una mano en cada mano. La segunda suma la mitad de su daño y te da su técnica; con dos de la misma familia, la nueva «Doble tajo».",
+              "Chat en la taberna: habla con todos o susúrrale a alguien con /w y su nombre (y /r para contestar al último). Pulsa Intro para escribir, y pulsa un nombre para susurrarle, añadirlo a tus amigos o bloquearlo.",
+              "Amigos: añade a otros por su nombre de cuenta y acepta sus peticiones; ves quién está conectado, si está en la taberna o en una expedición, y cuántos saqueadores hay en línea. Te avisamos cuando un amigo se conecta.",
+              "Bloquear: quien bloquees desaparece de tu chat y ya no puede susurrarte ni pedirte amistad."
+            ]
+          },
+          {
+            "heading": "Mejoras",
+            "items": [
+              "Al volver de una expedición recuperas toda la vida.",
+              "Las cartas de habilidad enseñan el daño que harías a ese enemigo, con su rango.",
+              "Escape cierra las ventanas abiertas (tiendas, baúl, inventario) antes de abrir los ajustes.",
+              "La ventana de las salas ya no queda tapada por la bolsa ni el equipo, y el botín espera a que termines de leerla.",
+              "Al bajar de profundidad se anuncia la nueva, y el portal rojo explica cómo se usa.",
+              "Las descripciones del mapa explican de verdad qué pasa en cada sala.",
+              "La gente de la taberna tiene su columna bajo tu ficha: un clic abre a cada uno, y el que tienes abierto se marca.",
+              "Tras vencer al guardián de cada profundidad eliges: portal rojo para bajar o portal azul para salir con el botín. Los botones dicen exactamente lo que hacen, y el de arriba se llama «Abandonar expedición» (abandonar hace perderlo todo).",
+              "Las ventanas se pueden arrastrar por su título y se quedan donde las dejas (también al volver a abrir el juego). Doble clic en el título la devuelve a su sitio, y en Ajustes, pestaña General, se recolocan todas.",
+              "La ventana de las salas sale centrada y ya no se corta por abajo: si no cabe, su contenido se desplaza.",
+              "En la taberna, abrir el inventario ya no esconde el grupo ni el chat, y tienes los botones de personaje, equipo y bolsa abajo a la derecha, como en la cripta.",
+              "Con la bolsa llena ya puedes cambiar lo que llevas puesto por algo de los restos: lo que te quitas se queda donde estaba lo nuevo.",
+              "La carta de una habilidad sin usos lo dice («Sin usos en este combate», «No te quedan pociones»).",
+              "Lo que te va a llegar del golpe enemigo enseña al lado tu Guardia: gastar dados en habilidades te quita Guardia, no hace que el enemigo pegue más.",
+              "Los objetos dicen directamente cuánto te paga Garrick por ellos.",
+              "Vender y comprar varias cosas es mucho más rápido: echa a la cesta de Garrick todo lo que quieras vender (clic derecho o soltándolo en su mostrador) y véndelo de una vez; con Aldren y el Custodio, llena el carrito y confirma una sola vez.",
+              "Si una ventana tapa el chat, los susurros que te llegan salen también arriba: no se te escapa ninguno.",
+              "La tienda de Aldren, ordenada: armas por tipo y armaduras por peso, con las piezas de la cabeza a los pies y un botón para llevarte el conjunto entero.",
+              "Lo nuevo del surtido de Aldren sale marcado en su categoría, y de salida solo ves lo que usa tu clase.",
+              "Los botones de comprar, de vender a Garrick y de ordenar el baúl están siempre a la vista, al pie de su ventana: ya no hay que bajar hasta el final.",
+              "En la mesa del Cartógrafo, la afinidad de botín y la descripción de cada región se leen mejor."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Arreglado: la descripción de un objeto podía crecer hasta tapar toda la pantalla.",
+              "Arreglado: el texto de algunas cartas de habilidad se salía de la carta.",
+              "Arreglado: el matador enano miraba hacia el lado contrario en combate.",
+              "Arreglado: la lista de personajes daba error si el servidor se estaba actualizando; ahora lo reintenta sola.",
+              "Arreglado: esquivar un golpe ya no te deja sangrando, envenenado o expuesto.",
+              "Arreglado: la hoja del personaje en la taberna enseñaba la vida sin el equipo y podía tapar la barra de abajo.",
+              "Arreglado: algunas fichas de las cartas de habilidad se salían de la carta.",
+              "Arreglado: el equipo de salida se podía guardar en el baúl y multiplicar borrando y creando personajes. Ahora es de su personaje y no entra en el baúl.",
+              "Arreglado: las ventanas de las escenas salían descentradas, con un hueco vacío, y a veces se salían por abajo; y el contenido de las ventanas se quedaba pegado a la izquierda.",
+              "Arreglado: el color de una pestaña del baúl apenas se notaba; ahora se tiñe entera, y al editarla ves el cambio al momento.",
+              "Arreglado: Aldren podía repetir el mismo objeto en su surtido.",
+              "Arreglado: tras una hora de juego, la taberna y la cola podían dejar de reconocer al héroe que habías elegido."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "Todo combate ganado suelta al menos un objeto: antes, muchos solo daban oro.",
+              "Cualquier ruta de cada profundidad tiene combates suficientes para llegar al guardián con botín.",
+              "La Guardia se acumula, y las pociones intoxican: cuantas más bebes, menos curan.",
+              "El explorador enano empieza con ballesta en vez de arco."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.16",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "New item system: rarities, properties with their ranges and proper names. You find items on fallen enemies, in chests and in vaults.",
+              "A full inventory during expeditions: equipment, bag and character sheet. Drag, sort, drink potions and throw away what you do not want.",
+              "Your gear matters in combat: your weapon decides your technique and adds its damage, and your armour really protects you.",
+              "Every class plays differently with its own mechanic, and racial traits now work in combat.",
+              "Rooms that are not fights now have their own scene: camps, shrines, treasure, merchants and encounters with choices settled by the dice.",
+              "The tavern comes alive: Aldren sells gear, Mara sells potions, Garrick buys what you no longer need and Brother Odran gives back, for a price, what you lost when you died (until your next expedition).",
+              "A stash shared by all your characters: four tabs to store your loot and pass it from one hero to another, and up to four more you can buy with gold (the «+» button). Drop an item on another tab to store it there.",
+              "Experience and levels: earn it by winning fights, passing risky challenges and going deeper, and even more if you make it out alive with what you found. Levels do not make you stronger: your power is your gear.",
+              "If the connection drops or you close the game mid-expedition, when you come back you can resume it or abandon it.",
+              "Combat log with every hit, critical and status (L key).",
+              "At the Cartographer's table you can now open new regions with gold: you pay once and they stay open for all your characters.",
+              "Gear score: what your equipped gear is worth, on your card, in the equipment window and on the character sheet. The Cartographer's table shows the recommended score for each depth (it guides you, it never stops you).",
+              "Organise your stash: right-click a tab to name it, give it a colour and an icon, or move it with everything inside.",
+              "Aldren, the Quartermaster, gives you back any missing starting gear for free: nobody is left naked.",
+              "Aldren now has tabs: basic weapons and armour for every class, always for sale, and his stock, which changes after every expedition and brings gear a step ahead of the basics.",
+              "Bandages and tonics: bandages heal outside combat without toxicity and tonics clear your toxicity. Mara sells them, and some scenes give them (the hunters' medicine kit, the peddler, the wayside herbs).",
+              "Dual wield: the slayer and the rogue can hold a one-handed weapon in each hand. The second one adds half its damage and gives you its technique; with two of the same kind, the new Twin Strike.",
+              "Tavern chat: talk to everyone or whisper to someone with /w and their name (and /r to answer the last one). Press Enter to write, and click a name to whisper to them, add them as a friend or block them.",
+              "Friends: add others by their account name and accept their requests; see who is online, whether they are in the tavern or on an expedition, and how many raiders are online. You are told when a friend comes online.",
+              "Blocking: whoever you block disappears from your chat and can no longer whisper to you or ask to be your friend."
+            ]
+          },
+          {
+            "heading": "Improvements",
+            "items": [
+              "You come back from an expedition at full health.",
+              "Skill cards show the damage you would deal to that enemy, as a range.",
+              "Escape closes open windows (shops, stash, inventory) before opening the settings.",
+              "Room windows are no longer covered by the bag or equipment, and loot waits until you finish reading them.",
+              "Going deeper announces the new depth, and the red portal explains how to use it.",
+              "Map descriptions now explain what really happens in each room.",
+              "The tavern folk have their own column under your character card: one click opens each of them, and the one you have open is highlighted.",
+              "After beating each depth's guardian you choose: the red portal to go deeper or the blue portal to leave with your loot. The buttons say exactly what they do, and the top one is now called «Abandon expedition» (abandoning loses everything).",
+              "Windows can be dragged by their title and stay where you leave them (also after restarting the game). Double-click the title to put one back, and the General tab of the Settings puts them all back.",
+              "The room window is centred and no longer cut off at the bottom: if it does not fit, its content scrolls.",
+              "In the tavern, opening the inventory no longer hides the party or the chat, and the character, equipment and bag buttons are at the bottom right, like in the crypt.",
+              "With a full bag you can now swap what you wear for something in the remains: what you take off stays where the new item was.",
+              "A skill card with no uses left says so («No uses left in this fight», «No potions left»).",
+              "The damage the enemy's blow will deal now shows your Guard next to it: spending dice on skills lowers your Guard, the enemy does not hit harder.",
+              "Items now say directly how much Garrick pays for them.",
+              "Selling and buying several things is much faster: put everything you want to sell in Garrick's basket (right-click or drop it on his counter) and sell it all at once; with Aldren and the Custodian, fill the cart and confirm only once.",
+              "If a window covers the chat, the whispers you receive also show at the top: you will not miss any.",
+              "Aldren's shop, sorted: weapons by kind and armour by weight, with the pieces from head to feet and a button to take the whole set.",
+              "What is new in Aldren's stock is marked in its category, and by default you only see what your class uses.",
+              "The buttons to buy, to sell to Garrick and to sort the stash are always in sight, at the foot of their window: no more scrolling to the end.",
+              "At the Cartographer's table, the loot affinity and the description of each region are easier to read."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "Fixed: an item's description could grow until it covered the whole screen.",
+              "Fixed: the text of some skill cards spilled out of the card.",
+              "Fixed: the dwarf slayer faced the wrong way in combat.",
+              "Fixed: the character list failed while the server was updating; now it retries on its own.",
+              "Fixed: dodging a blow no longer leaves you bleeding, poisoned or exposed.",
+              "Fixed: the character sheet in the tavern showed your health without your gear and could cover the bottom bar.",
+              "Fixed: some chips on the skill cards spilled out of the card.",
+              "Fixed: starting gear could be stored in the stash and multiplied by deleting and creating characters. It now belongs to its character and cannot go into the stash.",
+              "Fixed: scene windows were off-centre, with empty space, and sometimes went off the bottom of the screen; and window contents stuck to the left.",
+              "Fixed: a stash tab's colour was barely visible; now the whole tab is tinted, and you see the change as you edit it.",
+              "Fixed: Aldren could repeat the same item in his stock.",
+              "Fixed: after an hour of play, the tavern and the queue could stop recognising the hero you had chosen."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "Every fight you win drops at least one item: before, many only gave gold.",
+              "Every route through each depth has enough fights to reach the guardian with some loot.",
+              "Guard stacks up, and potions build toxicity: the more you drink, the less they heal.",
+              "The dwarf explorer now starts with a crossbow instead of a bow."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.7",
       "date": "2026-09-22",

@@ -25,66 +25,66 @@
     ]
   },
   "patch_notes": {
-    "version": "0.1.19",
-    "date": "2026-10-04",
+    "version": "0.1.20",
+    "date": "2026-10-05",
     "es": {
-      "title": "Notas de la version 0.1.19",
+      "title": "Notas de la version 0.1.20",
       "sections": [
-        {
-          "heading": "Nuevo",
-          "items": [
-            "Tus amigos, en cualquier pantalla: el nuevo botón de amigos, junto al engranaje, abre la lista desde la taberna, la mesa del cartógrafo o en plena expedición. También con la tecla F (se cambia en Ajustes, Controles).",
-            "Ventana de susurros: cada conversación en su pestaña, con lo que os habéis dicho estos días y una marca de lo que tienes sin leer. Se abre desde el bocadillo de cada amigo."
-          ]
-        },
-        {
-          "heading": "Mejoras",
-          "items": [
-            "La lista de amigos tiene dos pestañas, Amigos y Bloqueados, y un botón por acción en cada amigo: susurrar, quitar y bloquear. Quitar y bloquear preguntan antes.",
-            "El botón de amigos se arrastra a donde no te estorbe, cuenta lo que te espera y late cuando llega un susurro o una petición.",
-            "El chat de la taberna ocupa ahora toda la columna derecha.",
-            "Mercado de Veyra: la ventana mide lo mismo en sus tres pestañas y, si algo no se puede hacer, el motivo se queda escrito abajo hasta tu siguiente acción."
-          ]
-        },
         {
           "heading": "Correcciones",
           "items": [
-            "Mercado de Veyra: al quitar algo de la cesta de venta o vaciarla, el objeto seguía marcado en la bolsa.",
-            "Mercado de Veyra: al intentar comprar tu propio anuncio decía que ya estaba vendido; ahora dice que es tuyo."
+            "Los tooltips ya no se pegan al borde de la pantalla con su marco cortado: quedan siempre enteros y con un poco de aire.",
+            "En el mapa de la expedición, el panel de la sala se salía por abajo cuando la leyenda tenía muchos tipos de sala. La leyenda va ahora en dos columnas cuando hace falta.",
+            "La ventana de equipo cambiaba de ancho con cada cifra de sus números: ahora van en tres casillas fijas. La hoja del personaje tampoco cambia de alto al ponerte o quitarte algo."
           ]
         }
       ]
     },
     "en": {
-      "title": "Patch notes 0.1.19",
+      "title": "Patch notes 0.1.20",
       "sections": [
-        {
-          "heading": "New",
-          "items": [
-            "Your friends, on every screen: the new friends button, next to the settings gear, opens your list from the tavern, the cartographer's table or in the middle of an expedition. The F key does the same (change it in Settings, Controls).",
-            "Whisper window: each conversation in its own tab, with what you said over the last days and a mark for what you have not read. Open it from the speech bubble next to each friend."
-          ]
-        },
-        {
-          "heading": "Improvements",
-          "items": [
-            "The friends list has two tabs, Friends and Blocked, and one button per action on each friend: whisper, remove and block. Removing and blocking ask first.",
-            "Drag the friends button wherever it suits you: it counts what is waiting and pulses when a whisper or a request arrives.",
-            "The tavern chat now fills the whole right column.",
-            "Veyra's market: the window keeps the same size on its three tabs and, when something cannot be done, the reason stays written at the bottom until your next action."
-          ]
-        },
         {
           "heading": "Fixes",
           "items": [
-            "Veyra's market: after taking something out of the sale basket or emptying it, the item stayed marked in your bag.",
-            "Veyra's market: trying to buy your own listing said it was already sold; it now says it is yours."
+            "Tooltips no longer stick to the edge of the screen with their frame cut off: they always stay whole, with a little room.",
+            "On the expedition map, the room panel ran off the bottom when the legend had many room types. The legend now uses two columns when needed.",
+            "The equipment window changed width with every digit of its numbers: they now sit in three fixed boxes. The character sheet no longer changes height when you put something on or take it off."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.1.20",
+      "date": "2026-10-05",
+      "es": {
+        "title": "Notas de la version 0.1.20",
+        "sections": [
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Los tooltips ya no se pegan al borde de la pantalla con su marco cortado: quedan siempre enteros y con un poco de aire.",
+              "En el mapa de la expedición, el panel de la sala se salía por abajo cuando la leyenda tenía muchos tipos de sala. La leyenda va ahora en dos columnas cuando hace falta.",
+              "La ventana de equipo cambiaba de ancho con cada cifra de sus números: ahora van en tres casillas fijas. La hoja del personaje tampoco cambia de alto al ponerte o quitarte algo."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.20",
+        "sections": [
+          {
+            "heading": "Fixes",
+            "items": [
+              "Tooltips no longer stick to the edge of the screen with their frame cut off: they always stay whole, with a little room.",
+              "On the expedition map, the room panel ran off the bottom when the legend had many room types. The legend now uses two columns when needed.",
+              "The equipment window changed width with every digit of its numbers: they now sit in three fixed boxes. The character sheet no longer changes height when you put something on or take it off."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.19",
       "date": "2026-10-04",
@@ -374,46 +374,6 @@
             "heading": "Improvements",
             "items": [
               "The launcher now shows what changed in each version, not just the game news."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.1.1",
-      "date": "2026-09-21",
-      "es": {
-        "title": "Notas de la version 0.1.1",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "Tu sesión se mantiene mientras juegas: ya no hay que volver a entrar al rato.",
-              "Si marcas «recordarme», entras directo la próxima vez que abras el juego."
-            ]
-          },
-          {
-            "heading": "Correcciones",
-            "items": [
-              "Arreglado: la lista de personajes fallaba nada más entrar y no se veía ningún campeón."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "Patch notes 0.1.1",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "Your session now lasts while you play: no more logging in again after a while.",
-              "Tick \"remember me\" and you go straight in next time you open the game."
-            ]
-          },
-          {
-            "heading": "Fixes",
-            "items": [
-              "Fixed: the champion list failed right after logging in and no champions were shown."
             ]
           }
         ]

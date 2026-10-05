@@ -25,36 +25,218 @@
     ]
   },
   "patch_notes": {
-    "version": "0.1.20",
+    "version": "0.1.21",
     "date": "2026-10-05",
     "es": {
-      "title": "Notas de la version 0.1.20",
+      "title": "Notas de la version 0.1.21",
       "sections": [
+        {
+          "heading": "Nuevo",
+          "items": [
+            "Materiales: las salas de recolección dan madera, mineral, hierbas y otros recursos propios de cada región, y los enemigos vencidos sueltan sus partes (pieles, huesos, colmillos, escamas).",
+            "Los materiales se apilan, hasta 20 por casilla: se juntan al recogerlos, al soltar una pila encima de otra y al ordenar la bolsa o el baúl.",
+            "Cada región tiene su propia sala de recolección: sacarlo bien es una tirada, con más botín si sale y un percance si no.",
+            "El mercado de Veyra tiene categoría de materiales: enseña a cuánto sale cada unidad y ordena los anuncios por ese precio.",
+            "Añade amigos, susurra y bloquea por el nombre del personaje que ves en el juego: ya no hace falta saber el nombre de la cuenta. En el chat y en tu lista cada uno sale con su personaje.",
+            "Cuando alguien te pide amistad sale una ventana con Aceptar y Rechazar, y cuando te susurran se abre su conversación. Las dos se mueven y recuerdan dónde las dejas.",
+            "Grupos: invita a un amigo a tu grupo desde la lista de amigos o desde su nombre en el chat. El panel «Tu grupo» de la taberna enseña a cada miembro con su personaje, quién manda y qué regiones tiene abiertas.",
+            "Chat de grupo: escribe /p y tu mensaje para hablar solo con tu grupo.",
+            "Expediciones en grupo: quien guía el grupo parte desde la mesa del cartógrafo y bajáis todos juntos a la misma expedición, cada uno con su personaje. Hace falta que todos tengáis abierta la región.",
+            "En la cripta vais juntos de sala en sala y guía uno (si cae o se desconecta, guía el siguiente). Cada uno tiene su vida, su bolsa, su botín y su experiencia: nadie le quita nada a nadie.",
+            "En un combate cada uno pelea su duelo contra el mismo enemigo, a la vez; el grupo sigue cuando acabáis todos. Quien cae, cae él: los demás continúan. El combate de grupo de verdad llegará con el nuevo combate.",
+            "Cada uno sale por el portal cuando quiere, y los demás pueden seguir. En las escenas decide quien guía, se tira con el mejor del grupo y cada uno paga su parte.",
+            "Chat del grupo dentro de la cripta, bajo el panel de tu grupo: pulsa Intro y escribe.",
+            "Diez salas nuevas, dos propias de cada región: el ciervo en las zarzas y el ídolo de espino, la galería hundida y la fragua de los mineros, el carro del médico y la campana hundida, la galería de retratos y el prestamista de sangre, el nido en la ceniza y el cofre en la obsidiana.",
+            "Habilidades rehechas: cada una se usa una vez por turno (el Golpe envenenado del pícaro, dos), así que ya no se gana repitiendo la misma. La carta dice cuándo ya la has usado.",
+            "Cada arma juega distinto: la espada contraataca, el mandoble da el golpe más fuerte, el hacha expone, el hacha a dos manos atraviesa la armadura (Hendir), la maza rompe la Guardia, el martillo aturde (Rompecráneos), la lanza perfora, la daga remata y el arco suelta su Andanada."
+          ]
+        },
+        {
+          "heading": "Mejoras",
+          "items": [
+            "El tooltip de un material dice en qué región se recoge y qué enemigos lo sueltan.",
+            "Los susurros se guardan: si escribes a alguien que no está conectado, lo leerá al volver, y al entrar ves cuántos mensajes te esperan de cada persona.",
+            "Las habilidades de clase valen con cualquier arma de tu clase: el caballero tiene Baluarte y Embestida aunque lleve mandoble, y el Punto débil del montaraz es crítico seguro contra un Expuesto también con lanza o daga.",
+            "Espada y lanza escalan con tu mejor atributo entre Fuerza y Destreza: rinden igual para un caballero que para un duelista o un cazador."
+          ]
+        },
         {
           "heading": "Correcciones",
           "items": [
-            "Los tooltips ya no se pegan al borde de la pantalla con su marco cortado: quedan siempre enteros y con un poco de aire.",
-            "En el mapa de la expedición, el panel de la sala se salía por abajo cuando la leyenda tenía muchos tipos de sala. La leyenda va ahora en dos columnas cuando hace falta.",
-            "La ventana de equipo cambiaba de ancho con cada cifra de sus números: ahora van en tres casillas fijas. La hoja del personaje tampoco cambia de alto al ponerte o quitarte algo."
+            "Al mirar un anillo llevando dos puestos, el tooltip enseña ahora los dos y lo que cambia en lugar de cada uno (antes solo comparaba con el primero). Lo mismo con un arma en cada mano.",
+            "Un arma a dos manos se compara con todo lo que quita (el arma y el escudo), y un escudo con el arma a dos manos que quita.",
+            "Al contestar a quien acababa de susurrarte podía salir que no estaba conectado, sobre todo justo después de una actualización del servidor. Ya no pasa."
+          ]
+        },
+        {
+          "heading": "Equilibrio",
+          "items": [
+            "La Ejecución del matador pega el doble a un enemigo por debajo de media vida y gasta sus Sangrados (+5 por cada uno): guárdala para rematar.",
+            "Elfos: el Ojo de halcón vale con cualquier arma. Su primer ataque de cada combate golpea un 50 % más fuerte (antes solo los disparos y los conjuros).",
+            "Todas las clases reequilibradas con las habilidades nuevas: un combate normal cuesta algo de vida, un élite más y un guardián es una amenaza de verdad, con cualquier arma que tu clase domine."
           ]
         }
       ]
     },
     "en": {
-      "title": "Patch notes 0.1.20",
+      "title": "Patch notes 0.1.21",
       "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Materials: gathering rooms now give wood, ore, herbs and other resources of each region, and defeated enemies drop their parts (hides, bones, fangs, scales).",
+            "Materials stack, up to 20 per cell: they merge when picked up, when you drop one stack on another and when you sort your bag or stash.",
+            "Each region has its own gathering room: doing it properly is a roll, with more to carry if it works and a mishap if it does not.",
+            "Veyra's market has a materials category: it shows the price of each unit and sorts listings by it.",
+            "Add friends, whisper and block by the name of the character you see in game: you no longer need to know the account name. In chat and in your list everyone shows up as their character.",
+            "When someone asks to be your friend a window pops up with Accept and Decline, and when someone whispers to you their conversation opens. Both can be moved and remember where you leave them.",
+            "Parties: invite a friend to your party from your friends list or from their name in chat. The «Your party» panel in the tavern shows each member with their character, who leads and which regions they have opened.",
+            "Party chat: type /p and your message to talk to your party only.",
+            "Party expeditions: the party leader sets out from the cartographer's table and you all go down into the same expedition, each with your own character. Everyone needs to have the region opened.",
+            "In the crypt you move from room to room together and one of you leads (if they fall or disconnect, the next one leads). Each raider has their own health, bag, loot and experience: nobody takes anything from anybody.",
+            "In a fight each of you duels the same enemy at the same time; the party moves on when everyone is done. Whoever falls, falls alone: the others carry on. True group combat will arrive with the new combat.",
+            "Each raider leaves through the portal whenever they want, and the others can go on. In room scenes the leader decides, the best of the party rolls and each one pays their own share.",
+            "Party chat inside the crypt, under your party panel: press Enter and type.",
+            "Ten new rooms, two of their own for each region: the stag in the briars and the thorn idol, the collapsed gallery and the miners' forge, the doctor's cart and the drowned bell, the portrait gallery and the blood broker, the nest in the ash and the chest in the obsidian.",
+            "Skills reworked: each one is used once per turn (the rogue's Envenomed Strike, twice), so repeating the same one no longer wins fights. The card tells you when you have already used it.",
+            "Every weapon plays differently: the sword counters, the greatsword lands the hardest blow, the axe exposes, the great axe goes through armour (Sunder), the mace breaks Guard, the maul dazes (Skullcrack), the spear pierces, the dagger finishes and the bow looses its Volley."
+          ]
+        },
+        {
+          "heading": "Improvements",
+          "items": [
+            "A material's tooltip tells you which region it is gathered in and which enemies drop it.",
+            "Whispers are kept: if you write to someone who is not online they will read it when they are back, and when you come in you see how many messages are waiting from each person.",
+            "Class skills work with any weapon your class can use: the knight has Bulwark and Onslaught even with a greatsword, and the ranger's Weak Spot is a sure crit against an Exposed enemy with a spear or a dagger too.",
+            "Swords and spears scale with the better of your Strength and Dexterity: they work as well for a knight as for a duellist or a huntsman."
+          ]
+        },
         {
           "heading": "Fixes",
           "items": [
-            "Tooltips no longer stick to the edge of the screen with their frame cut off: they always stay whole, with a little room.",
-            "On the expedition map, the room panel ran off the bottom when the legend had many room types. The legend now uses two columns when needed.",
-            "The equipment window changed width with every digit of its numbers: they now sit in three fixed boxes. The character sheet no longer changes height when you put something on or take it off."
+            "When you look at a ring while wearing two, the tooltip now shows both and what changes in place of each (it used to compare only with the first). The same goes for a weapon in each hand.",
+            "A two-handed weapon is compared with everything it replaces (the weapon and the shield), and a shield with the two-handed weapon it replaces.",
+            "Replying to someone who had just whispered to you could say they were not online, mostly right after a server update. That no longer happens."
+          ]
+        },
+        {
+          "heading": "Balance",
+          "items": [
+            "The slayer's Execution hits twice as hard against an enemy below half health and spends their Bleeds (+5 each): save it for the kill.",
+            "Elves: Hawk Eye now works with any weapon. Their first attack of each fight hits 50% harder (it used to be ranged attacks and spells only).",
+            "Every class rebalanced around the new skills: a normal fight costs some health, an elite more and a guardian is a real threat, with any weapon your class has mastered."
           ]
         }
       ]
     }
   },
   "patch_notes_history": [
+    {
+      "version": "0.1.21",
+      "date": "2026-10-05",
+      "es": {
+        "title": "Notas de la version 0.1.21",
+        "sections": [
+          {
+            "heading": "Nuevo",
+            "items": [
+              "Materiales: las salas de recolección dan madera, mineral, hierbas y otros recursos propios de cada región, y los enemigos vencidos sueltan sus partes (pieles, huesos, colmillos, escamas).",
+              "Los materiales se apilan, hasta 20 por casilla: se juntan al recogerlos, al soltar una pila encima de otra y al ordenar la bolsa o el baúl.",
+              "Cada región tiene su propia sala de recolección: sacarlo bien es una tirada, con más botín si sale y un percance si no.",
+              "El mercado de Veyra tiene categoría de materiales: enseña a cuánto sale cada unidad y ordena los anuncios por ese precio.",
+              "Añade amigos, susurra y bloquea por el nombre del personaje que ves en el juego: ya no hace falta saber el nombre de la cuenta. En el chat y en tu lista cada uno sale con su personaje.",
+              "Cuando alguien te pide amistad sale una ventana con Aceptar y Rechazar, y cuando te susurran se abre su conversación. Las dos se mueven y recuerdan dónde las dejas.",
+              "Grupos: invita a un amigo a tu grupo desde la lista de amigos o desde su nombre en el chat. El panel «Tu grupo» de la taberna enseña a cada miembro con su personaje, quién manda y qué regiones tiene abiertas.",
+              "Chat de grupo: escribe /p y tu mensaje para hablar solo con tu grupo.",
+              "Expediciones en grupo: quien guía el grupo parte desde la mesa del cartógrafo y bajáis todos juntos a la misma expedición, cada uno con su personaje. Hace falta que todos tengáis abierta la región.",
+              "En la cripta vais juntos de sala en sala y guía uno (si cae o se desconecta, guía el siguiente). Cada uno tiene su vida, su bolsa, su botín y su experiencia: nadie le quita nada a nadie.",
+              "En un combate cada uno pelea su duelo contra el mismo enemigo, a la vez; el grupo sigue cuando acabáis todos. Quien cae, cae él: los demás continúan. El combate de grupo de verdad llegará con el nuevo combate.",
+              "Cada uno sale por el portal cuando quiere, y los demás pueden seguir. En las escenas decide quien guía, se tira con el mejor del grupo y cada uno paga su parte.",
+              "Chat del grupo dentro de la cripta, bajo el panel de tu grupo: pulsa Intro y escribe.",
+              "Diez salas nuevas, dos propias de cada región: el ciervo en las zarzas y el ídolo de espino, la galería hundida y la fragua de los mineros, el carro del médico y la campana hundida, la galería de retratos y el prestamista de sangre, el nido en la ceniza y el cofre en la obsidiana.",
+              "Habilidades rehechas: cada una se usa una vez por turno (el Golpe envenenado del pícaro, dos), así que ya no se gana repitiendo la misma. La carta dice cuándo ya la has usado.",
+              "Cada arma juega distinto: la espada contraataca, el mandoble da el golpe más fuerte, el hacha expone, el hacha a dos manos atraviesa la armadura (Hendir), la maza rompe la Guardia, el martillo aturde (Rompecráneos), la lanza perfora, la daga remata y el arco suelta su Andanada."
+            ]
+          },
+          {
+            "heading": "Mejoras",
+            "items": [
+              "El tooltip de un material dice en qué región se recoge y qué enemigos lo sueltan.",
+              "Los susurros se guardan: si escribes a alguien que no está conectado, lo leerá al volver, y al entrar ves cuántos mensajes te esperan de cada persona.",
+              "Las habilidades de clase valen con cualquier arma de tu clase: el caballero tiene Baluarte y Embestida aunque lleve mandoble, y el Punto débil del montaraz es crítico seguro contra un Expuesto también con lanza o daga.",
+              "Espada y lanza escalan con tu mejor atributo entre Fuerza y Destreza: rinden igual para un caballero que para un duelista o un cazador."
+            ]
+          },
+          {
+            "heading": "Correcciones",
+            "items": [
+              "Al mirar un anillo llevando dos puestos, el tooltip enseña ahora los dos y lo que cambia en lugar de cada uno (antes solo comparaba con el primero). Lo mismo con un arma en cada mano.",
+              "Un arma a dos manos se compara con todo lo que quita (el arma y el escudo), y un escudo con el arma a dos manos que quita.",
+              "Al contestar a quien acababa de susurrarte podía salir que no estaba conectado, sobre todo justo después de una actualización del servidor. Ya no pasa."
+            ]
+          },
+          {
+            "heading": "Equilibrio",
+            "items": [
+              "La Ejecución del matador pega el doble a un enemigo por debajo de media vida y gasta sus Sangrados (+5 por cada uno): guárdala para rematar.",
+              "Elfos: el Ojo de halcón vale con cualquier arma. Su primer ataque de cada combate golpea un 50 % más fuerte (antes solo los disparos y los conjuros).",
+              "Todas las clases reequilibradas con las habilidades nuevas: un combate normal cuesta algo de vida, un élite más y un guardián es una amenaza de verdad, con cualquier arma que tu clase domine."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Patch notes 0.1.21",
+        "sections": [
+          {
+            "heading": "New",
+            "items": [
+              "Materials: gathering rooms now give wood, ore, herbs and other resources of each region, and defeated enemies drop their parts (hides, bones, fangs, scales).",
+              "Materials stack, up to 20 per cell: they merge when picked up, when you drop one stack on another and when you sort your bag or stash.",
+              "Each region has its own gathering room: doing it properly is a roll, with more to carry if it works and a mishap if it does not.",
+              "Veyra's market has a materials category: it shows the price of each unit and sorts listings by it.",
+              "Add friends, whisper and block by the name of the character you see in game: you no longer need to know the account name. In chat and in your list everyone shows up as their character.",
+              "When someone asks to be your friend a window pops up with Accept and Decline, and when someone whispers to you their conversation opens. Both can be moved and remember where you leave them.",
+              "Parties: invite a friend to your party from your friends list or from their name in chat. The «Your party» panel in the tavern shows each member with their character, who leads and which regions they have opened.",
+              "Party chat: type /p and your message to talk to your party only.",
+              "Party expeditions: the party leader sets out from the cartographer's table and you all go down into the same expedition, each with your own character. Everyone needs to have the region opened.",
+              "In the crypt you move from room to room together and one of you leads (if they fall or disconnect, the next one leads). Each raider has their own health, bag, loot and experience: nobody takes anything from anybody.",
+              "In a fight each of you duels the same enemy at the same time; the party moves on when everyone is done. Whoever falls, falls alone: the others carry on. True group combat will arrive with the new combat.",
+              "Each raider leaves through the portal whenever they want, and the others can go on. In room scenes the leader decides, the best of the party rolls and each one pays their own share.",
+              "Party chat inside the crypt, under your party panel: press Enter and type.",
+              "Ten new rooms, two of their own for each region: the stag in the briars and the thorn idol, the collapsed gallery and the miners' forge, the doctor's cart and the drowned bell, the portrait gallery and the blood broker, the nest in the ash and the chest in the obsidian.",
+              "Skills reworked: each one is used once per turn (the rogue's Envenomed Strike, twice), so repeating the same one no longer wins fights. The card tells you when you have already used it.",
+              "Every weapon plays differently: the sword counters, the greatsword lands the hardest blow, the axe exposes, the great axe goes through armour (Sunder), the mace breaks Guard, the maul dazes (Skullcrack), the spear pierces, the dagger finishes and the bow looses its Volley."
+            ]
+          },
+          {
+            "heading": "Improvements",
+            "items": [
+              "A material's tooltip tells you which region it is gathered in and which enemies drop it.",
+              "Whispers are kept: if you write to someone who is not online they will read it when they are back, and when you come in you see how many messages are waiting from each person.",
+              "Class skills work with any weapon your class can use: the knight has Bulwark and Onslaught even with a greatsword, and the ranger's Weak Spot is a sure crit against an Exposed enemy with a spear or a dagger too.",
+              "Swords and spears scale with the better of your Strength and Dexterity: they work as well for a knight as for a duellist or a huntsman."
+            ]
+          },
+          {
+            "heading": "Fixes",
+            "items": [
+              "When you look at a ring while wearing two, the tooltip now shows both and what changes in place of each (it used to compare only with the first). The same goes for a weapon in each hand.",
+              "A two-handed weapon is compared with everything it replaces (the weapon and the shield), and a shield with the two-handed weapon it replaces.",
+              "Replying to someone who had just whispered to you could say they were not online, mostly right after a server update. That no longer happens."
+            ]
+          },
+          {
+            "heading": "Balance",
+            "items": [
+              "The slayer's Execution hits twice as hard against an enemy below half health and spends their Bleeds (+5 each): save it for the kill.",
+              "Elves: Hawk Eye now works with any weapon. Their first attack of each fight hits 50% harder (it used to be ranged attacks and spells only).",
+              "Every class rebalanced around the new skills: a normal fight costs some health, an elite more and a guardian is a real threat, with any weapon your class has mastered."
+            ]
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.20",
       "date": "2026-10-05",
@@ -348,32 +530,6 @@
             "heading": "Fixes",
             "items": [
               "Fixed: some texts on the creation screen stayed in English after switching language."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "version": "0.1.2",
-      "date": "2026-09-21",
-      "es": {
-        "title": "Notas de la version 0.1.2",
-        "sections": [
-          {
-            "heading": "Mejoras",
-            "items": [
-              "El launcher enseña ahora las novedades de cada versión, no solo las noticias del juego."
-            ]
-          }
-        ]
-      },
-      "en": {
-        "title": "Patch notes 0.1.2",
-        "sections": [
-          {
-            "heading": "Improvements",
-            "items": [
-              "The launcher now shows what changed in each version, not just the game news."
             ]
           }
         ]
